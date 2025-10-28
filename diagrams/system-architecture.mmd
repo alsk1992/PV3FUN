@@ -1,0 +1,82 @@
+graph TB
+    subgraph "Frontend Layer"
+        WEB[Web App<br/>Next.js 13+]
+        MOBILE[Mobile Apps<br/>React Native]
+        WEB3[Web3 Integration<br/>Wallet Adapter]
+    end
+
+    subgraph "Backend Layer - NestJS Microservices"
+        API[API Gateway<br/>REST + WebSocket]
+        AUTH[Auth Service<br/>Privy + JWT]
+        MATCH[Match Service<br/>Game Logic]
+        GAME[Game Factory<br/>10+ Engines]
+        VAULT[Session Vault<br/>Service]
+        SOCIAL[Social Hub<br/>Chat + Forum]
+        STREAM[Streaming<br/>Cloudflare]
+        TOUR[Tournament<br/>Service]
+        PNL[PnL Analytics<br/>Service]
+        REFER[Referral<br/>Service]
+        ANTICHEAT[Anti-Cheat<br/>6 Layers]
+    end
+
+    subgraph "Data Layer"
+        POSTGRES[(PostgreSQL<br/>50+ Tables)]
+        REDIS[(Redis Cluster<br/>State + Cache)]
+        LRU[LRU Cache<br/>Hot Data]
+    end
+
+    subgraph "Blockchain Layer"
+        SOLANA[Solana Mainnet<br/>via Helius RPC]
+        CONTRACT[PV3 Smart Contract<br/>Anchor 0.30.1]
+        LIGHT[Light Protocol<br/>ZK Privacy]
+        WORMHOLE[Wormhole Bridge<br/>Cross-Chain]
+    end
+
+    subgraph "External Services"
+        SENTRY[Sentry<br/>Error Tracking]
+        CF[Cloudflare Stream<br/>Global CDN]
+        RAILWAY[Railway<br/>Hosting]
+        PRIVY[Privy.io<br/>Auth Provider]
+    end
+
+    WEB --> API
+    MOBILE --> API
+    WEB3 --> API
+
+    API --> AUTH
+    API --> MATCH
+    API --> SOCIAL
+    API --> STREAM
+
+    AUTH --> PRIVY
+    MATCH --> GAME
+    MATCH --> VAULT
+    MATCH --> ANTICHEAT
+    MATCH --> TOUR
+
+    GAME --> POSTGRES
+    GAME --> REDIS
+    VAULT --> REDIS
+    SOCIAL --> POSTGRES
+    PNL --> POSTGRES
+    REFER --> POSTGRES
+
+    API --> LRU
+    MATCH --> LRU
+
+    VAULT --> CONTRACT
+    MATCH --> CONTRACT
+    CONTRACT --> SOLANA
+    CONTRACT --> LIGHT
+
+    API --> WORMHOLE
+    STREAM --> CF
+    API --> SENTRY
+
+    style CONTRACT fill:#9333EA
+    style SOLANA fill:#14F195
+    style LIGHT fill:#00D4AA
+    style REDIS fill:#DC382D
+    style POSTGRES fill:#336791
+    style CF fill:#F38020
+    style SENTRY fill:#362D59

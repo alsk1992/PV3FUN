@@ -1,0 +1,64 @@
+graph TD
+    START[Player Submits Move] --> L1
+
+    subgraph "Layer 1: Server Validation"
+        L1[Validate Move Legality]
+        L1 -->|Chess: Legal move?| L1A{Valid?}
+        L1 -->|Mines: Valid tile?| L1A
+        L1 -->|RPS: Valid choice?| L1A
+        L1A -->|No| REJECT1[❌ Reject Move]
+        L1A -->|Yes| L2
+    end
+
+    subgraph "Layer 2: Timing Analysis"
+        L2[Check Reaction Time]
+        L2 --> L2A{< 50ms?}
+        L2A -->|Yes - Bot!| FLAG1[🚩 Flag Account]
+        L2A -->|No| L3
+    end
+
+    subgraph "Layer 3: Pattern Detection"
+        L3[Analyze Win Rate]
+        L3 --> L3A{> 95% wins?}
+        L3A -->|Yes - Impossible!| FLAG2[🚩 Flag Account]
+        L3A -->|No| L4
+    end
+
+    subgraph "Layer 4: Replay Hash"
+        L4[Record Input + Timestamp]
+        L4 --> L4A[Generate Replay Hash]
+        L4A --> L4B[Store in Database]
+        L4B --> L5
+    end
+
+    subgraph "Layer 5: Manual Review"
+        L5[Check if Flagged]
+        L5 --> L5A{Multiple Flags?}
+        L5A -->|Yes| QUEUE[Add to Admin Review Queue]
+        L5A -->|No| L6
+        QUEUE --> ADMIN[👨‍💼 Admin Reviews]
+        ADMIN --> BAN{Cheating?}
+        BAN -->|Yes| PENALTY[⛔ Apply Penalty]
+        BAN -->|No| CLEAR[✅ Clear Account]
+    end
+
+    subgraph "Layer 6: Community Reports"
+        L6[Community Report System]
+        L6 --> L6A{3+ Reports?}
+        L6A -->|Yes| QUEUE
+        L6A -->|No| ACCEPT[✅ Move Accepted]
+    end
+
+    REJECT1 --> END1[Move Rejected]
+    FLAG1 --> CONTINUE[Move Accepted<br/>But Account Flagged]
+    FLAG2 --> CONTINUE
+    ACCEPT --> END2[Move Accepted<br/>Game Continues]
+
+    style L1 fill:#3B82F6
+    style L2 fill:#10B981
+    style L3 fill:#F59E0B
+    style L4 fill:#8B5CF6
+    style L5 fill:#EF4444
+    style L6 fill:#EC4899
+    style REJECT1 fill:#DC2626
+    style ACCEPT fill:#059669

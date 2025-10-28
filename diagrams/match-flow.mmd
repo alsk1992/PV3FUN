@@ -1,0 +1,57 @@
+sequenceDiagram
+    participant Player1
+    participant Frontend
+    participant API
+    participant SessionVault
+    participant Contract
+    participant GameEngine
+    participant AntiCheat
+    participant Player2
+
+    Player1->>Frontend: Create Match (1 SOL wager)
+    Frontend->>API: POST /match/create
+    API->>SessionVault: Check balance (1.0035 SOL)
+    SessionVault->>SessionVault: Deduct infrastructure fee (0.0035 SOL)
+    SessionVault->>Contract: Transfer wager (1 SOL)
+    Contract->>Contract: Lock in escrow PDA
+    Contract-->>API: Match created
+    API-->>Frontend: Match ID + lobby link
+    Frontend-->>Player1: Share link with opponent
+
+    Player2->>Frontend: Join via link
+    Frontend->>API: POST /match/join
+    API->>SessionVault: Check balance (1.0015 SOL)
+    SessionVault->>SessionVault: Deduct infrastructure fee (0.0015 SOL)
+    SessionVault->>Contract: Transfer wager (1 SOL)
+    Contract->>Contract: Lock in escrow (total 2 SOL)
+    Contract-->>API: Match started
+    API->>GameEngine: Initialize game state
+    GameEngine-->>Player1: WebSocket: Game started
+    GameEngine-->>Player2: WebSocket: Game started
+
+    Player1->>Frontend: Make move
+    Frontend->>GameEngine: Submit move
+    GameEngine->>AntiCheat: Validate move (timing, legality)
+    AntiCheat-->>GameEngine: Valid ✓
+    GameEngine->>GameEngine: Update game state (Redis)
+    GameEngine-->>Player2: WebSocket: Opponent move
+
+    Player2->>Frontend: Make move
+    Frontend->>GameEngine: Submit move
+    GameEngine->>AntiCheat: Validate move
+    AntiCheat-->>GameEngine: Valid ✓
+    GameEngine->>GameEngine: Check win condition
+    GameEngine->>GameEngine: Player2 wins!
+
+    GameEngine->>GameEngine: Generate result hash (SHA-256)
+    GameEngine->>GameEngine: Sign with Ed25519 key
+    GameEngine->>Contract: Submit result + signature
+    Contract->>Contract: Verify Ed25519 signature
+    Contract->>Contract: Verify winner is player
+    Contract->>Contract: Calculate payouts (94% winner, 6% platform)
+    Contract->>SessionVault: Transfer 1.88 SOL to Player2 vault
+    Contract->>Contract: Transfer 0.1 SOL to treasury
+    Contract->>Contract: Transfer 0.02 SOL to referral pool
+    Contract-->>GameEngine: Payout complete
+    GameEngine-->>Player2: WebSocket: You won! +1.88 SOL
+    GameEngine-->>Player1: WebSocket: You lost

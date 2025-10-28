@@ -1,0 +1,63 @@
+graph TB
+    subgraph "Revenue Sources"
+        MATCHES[6% Platform Fee<br/>From All Matches]
+        BRIDGE[0.5% Cross-Chain<br/>Bridge Fees]
+        WITHDRAW[0.1-0.5%<br/>Withdrawal Fees]
+        TOURNEY[10-15%<br/>Tournament Fees]
+    end
+
+    subgraph "Distribution"
+        TREASURY[Treasury Wallet<br/>5% of match fees]
+        REFPOOL[Referral Pool<br/>1% of match fees]
+    end
+
+    MATCHES --> TREASURY
+    MATCHES --> REFPOOL
+    BRIDGE --> TREASURY
+    WITHDRAW --> TREASURY
+    TOURNEY --> TREASURY
+
+    subgraph "Earning Stakeholders"
+        PLAYERS[Players<br/>Skill-based Earnings]
+        AFFILIATES[Affiliates<br/>10-25% Revenue Share]
+        KOLS[KOLs<br/>Up to 30% Custom Deals]
+        DEVS[Developers<br/>50% Game Revenue Share]
+        STREAMERS[Streamers<br/>70% Subs + 90% Tips]
+    end
+
+    REFPOOL --> AFFILIATES
+    REFPOOL --> KOLS
+    TREASURY --> DEVS
+    MATCHES --> PLAYERS
+
+    subgraph "Affiliate Tiers"
+        T1[Tier 1: 1-10 refs<br/>10% forever]
+        T2[Tier 2: 11-50 refs<br/>15% forever]
+        T3[Tier 3: 51-100 refs<br/>20% forever]
+        T4[Tier 4: 100+ refs<br/>25% forever]
+    end
+
+    AFFILIATES --> T1
+    AFFILIATES --> T2
+    AFFILIATES --> T3
+    AFFILIATES --> T4
+
+    subgraph "Example Monthly Earnings"
+        E1[Casual Affiliate<br/>10 refs × $500/mo<br/>= $30/mo passive]
+        E2[Power Affiliate<br/>500 refs × $2K/mo<br/>= $15K/mo passive]
+        E3[Top KOL<br/>2.5K refs × $2K/mo<br/>= $90K/mo passive]
+        E4[Developer<br/>5K players × 20 games<br/>= $300K/mo revenue]
+    end
+
+    T1 --> E1
+    T4 --> E2
+    KOLS --> E3
+    DEVS --> E4
+
+    style TREASURY fill:#3B82F6
+    style REFPOOL fill:#8B5CF6
+    style PLAYERS fill:#10B981
+    style AFFILIATES fill:#F59E0B
+    style KOLS fill:#EF4444
+    style DEVS fill:#06B6D4
+    style STREAMERS fill:#EC4899

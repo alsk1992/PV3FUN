@@ -1,5 +1,18 @@
 # PV3 Platform Architecture
 
+## 📊 Visual Diagrams
+
+**Professional Mermaid diagrams available in `/diagrams/`:**
+- **[System Architecture](./diagrams/system-architecture.mmd)** - Complete platform overview
+- **[Match Flow Sequence](./diagrams/match-flow.mmd)** - End-to-end match lifecycle
+- **[Session Vault System](./diagrams/session-vault.mmd)** - Gas-free gaming architecture
+- **[6-Layer Anti-Cheat](./diagrams/anti-cheat.mmd)** - Security validation flow
+- **[Earning Ecosystem](./diagrams/earning-ecosystem.mmd)** - Revenue distribution
+
+**View on GitHub for automatic rendering, or use https://mermaid.live/**
+
+---
+
 ## System Overview
 
 PV3 is built as a three-tier architecture optimized for real-time gaming on Solana:

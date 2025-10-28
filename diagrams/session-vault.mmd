@@ -1,0 +1,45 @@
+graph LR
+    subgraph "User Wallet"
+        WALLET[User Phantom Wallet<br/>External SOL Storage]
+    end
+
+    subgraph "Session Vault PDA"
+        VAULT[Session Vault Account<br/>PDA: seeds=['session_vault', user]]
+        GAMING[Gaming Balance<br/>Available for wagers]
+        INFRA[Infrastructure Credit<br/>Auto-managed fees]
+    end
+
+    subgraph "Match Escrow"
+        ESCROW1[Match 1 Escrow<br/>2 SOL locked]
+        ESCROW2[Match 2 Escrow<br/>1 SOL locked]
+        ESCROW3[Match 3 Escrow<br/>0.5 SOL locked]
+    end
+
+    subgraph "Platform Accounts"
+        TREASURY[Treasury<br/>5% fees]
+        REFERRAL[Referral Pool<br/>1% fees]
+    end
+
+    WALLET -->|1. Deposit 10 SOL| VAULT
+    VAULT --> GAMING
+    VAULT --> INFRA
+
+    GAMING -->|2. Create Match<br/>1 SOL wager| ESCROW1
+    INFRA -->|0.0035 SOL fee| TREASURY
+
+    GAMING -->|3. Join Match<br/>1 SOL wager| ESCROW1
+    INFRA -->|0.0015 SOL fee| TREASURY
+
+    ESCROW1 -->|4. Win Match<br/>1.88 SOL| GAMING
+    ESCROW1 -->|0.1 SOL| TREASURY
+    ESCROW1 -->|0.02 SOL| REFERRAL
+
+    GAMING -->|5. Create Another<br/>0.5 SOL| ESCROW2
+    GAMING -->|6. Withdraw 5 SOL| WALLET
+
+    style VAULT fill:#9333EA
+    style GAMING fill:#10B981
+    style INFRA fill:#F59E0B
+    style ESCROW1 fill:#EF4444
+    style TREASURY fill:#3B82F6
+    style REFERRAL fill:#8B5CF6
