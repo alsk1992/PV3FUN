@@ -384,7 +384,7 @@ I'm not keeping 100% equity. Building a $1B company with 50% is better than buil
 
 ## The Vision
 
-**PV3 is more than a gaming platform. It's the cloud gaming infrastructure layer for Web3.**
+**PV3 is more than a gaming platform. It's the browser-native gaming infrastructure layer for Web3.**
 
 I'm not building this to flip it in 6 months. I'm building this to become the dominant gaming platform in Web3 over the next 5-10 years.
 
@@ -392,10 +392,10 @@ I'm not building this to flip it in 6 months. I'm building this to become the do
 
 **The positioning:**
 - **Not "Web3 Steam"** - Steam requires downloads and installs
-- **We're Xbox Cloud Gaming + Web3 earning** - Instant access, play anywhere, earn everywhere
-- **Cloud gaming meets blockchain** - Browser-based AAA quality with real money stakes
+- **We're browser gaming + Web3 earning** - Instant access, play anywhere, earn everywhere
+- **Web-native gaming meets blockchain** - Browser-based production quality with real money stakes
 
-**The goal:** Become the platform where gamers earn, developers build, and creators grow. The instant-access gaming platform of Web3.
+**The goal:** Become the platform where gamers earn, developers build, and creators grow. The instant-access, browser-native gaming platform of Web3.
 
 **The commitment:** Whatever it takes. This is my life's work.
 

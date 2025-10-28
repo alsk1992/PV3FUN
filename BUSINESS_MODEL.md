@@ -396,4 +396,4 @@ Additional annual revenue: $18M
 
 This business model combines proven gaming platform economics with blockchain infrastructure. Success depends on execution, user adoption, and market timing.
 
-**Building cloud gaming infrastructure for Web3 with sustainable unit economics.**
+**Building browser-native gaming infrastructure for Web3 with sustainable unit economics.**

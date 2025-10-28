@@ -216,7 +216,7 @@
 **What creates our competitive moat:**
 
 1. **Network Effects**: More users → More developers → More games → More users
-2. **Brand Recognition**: Establishing "cloud gaming platform of Web3"
+2. **Brand Recognition**: Establishing "browser-native gaming platform of Web3"
 3. **Infrastructure Foundation**: Production-grade scalability from day one
 4. **Developer Ecosystem**: 50% revenue share to attract game developers
 5. **Viral Content Engine**: User-generated content drives organic growth
@@ -332,13 +332,13 @@ PV3 aims to be the platform where Web2 gamers earn, developers build, content cr
 
 Differentiation through integrated approach: Web2 onboarding + scalable infrastructure + developer ecosystem + viral mechanics.
 
-We're not "Web3 Steam" - we're the **cloud gaming platform of Web3.**
+We're not "Web3 Steam" - we're the **browser-native gaming platform of Web3.**
 
-Steam requires downloads. Xbox Cloud Gaming gives instant access. **PV3 combines both:**
+Steam requires downloads. Browser gaming (Miniclip, Crazy Games) gives instant access. **PV3 brings browser gaming to Web3:**
 - Instant access (no downloads, browser-based)
 - Earning potential (Web3 money)
-- AAA quality (not crypto dApp quality)
+- Production quality (polished experiences, not typical crypto dApp quality)
 
-This is the infrastructure layer for gaming on Solana. The instant-access, play-anywhere, earn-everywhere platform.
+This is the infrastructure layer for gaming on Solana. The instant-access, browser-native, earn-everywhere platform.
 
 **And we're just getting started.**
