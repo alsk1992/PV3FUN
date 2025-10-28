@@ -192,15 +192,44 @@ We're leaning toward **Option 2** to keep human skill competition pure while cre
 - **Detailed leaderboards** (global, per-game, weekly, monthly)
 - **Tournament system** (daily, weekly, monthly championships)
 
-### Viral by Design
+### Viral Content Machine - OG Gaming Vibes
 
-**Share & Challenge:**
+**Built for Clip Culture:**
+
+Imagine this: You're streaming your 1v1 shooter session. 10 SOL on the line ($1,000). Random opponent joins through your live stream. Voice chat is hot. The trash talk is real. Final round. You clutch the win.
+
+**That's content gold.**
+
+**The Viral Flywheel:**
+- **Live Streaming Built-In**: Stream any game directly on PV3
+- **Voice Chat in Every Match**: Real reactions, trash talk, victory screams
+- **Live Challenges**: Viewers can challenge streamers mid-stream
+- **High-Stakes Drama**: 10 SOL, 50 SOL, 100 SOL on the line - real money, real emotions
+- **Instant Clip Generation**: Every clutch moment, every upset, every trash talk session
+- **Shareable Everywhere**: TikTok, YouTube Shorts, Twitter - one-click export
+
+**This Isn't Just Our 1v1 Shooter:**
+- Chess grandmaster losing to unknown player? Clip it.
+- Coinflip best-of-5 comeback from 0-2? Clip it.
+- Mines expert defusing 24/25 tiles with 100 SOL at stake? Clip it.
+- Crash multiplier hitting 50x while streamer screams? Clip it.
+
+**Every game becomes content. Every match could go viral.**
+
+**We're bringing back the OG gaming vibes:**
+- Remember when Call of Duty lobbies had the wildest trash talk?
+- Remember when clutch plays actually meant something?
+- Remember when gaming was about bragging rights and competition?
+
+**That energy. But now with real money on the line. And every moment clippable.**
+
+**Share & Challenge Features:**
 - Create a match, share link with friends
 - Join random matches or create custom lobbies
-- Challenge specific players
-- Spectate live matches
+- Challenge specific players through their stream
+- Spectate live matches with live chat
 - PnL cards (shareable profit/loss screenshots)
-- Viral moments captured and shared
+- Automated highlight reels of your best plays
 
 ### Provably Fair with Oracle
 
