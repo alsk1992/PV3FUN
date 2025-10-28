@@ -1,5 +1,7 @@
 # PV3 Business Model & Unit Economics
 
+> **Disclaimer:** All financial projections are illustrative models based on comparable gaming platforms and reasonable assumptions. Actual results will depend on user adoption, market conditions, competition, execution, and numerous other factors. These projections are not guarantees of future performance.
+
 ## Revenue Model
 
 ### Primary Revenue Stream: Platform Fees
@@ -338,7 +340,7 @@ Additional annual revenue: $18M
 ### Future Fundraising (Post-Traction)
 
 **Seed Round (If Needed):**
-- Target: $2M at $10M valuation
+- Target: $2M
 - Use of funds:
   - Team expansion: $800K (4 engineers, 1 designer, 1 community)
   - Marketing & partnerships: $500K
@@ -346,8 +348,8 @@ Additional annual revenue: $18M
   - Legal & compliance: $200K
   - Working capital: $200K
 
-**Series A (Year 2):**
-- Target: $10M at $50M-100M valuation
+**Series A (Year 2, if needed):**
+- Target: $10M
 - Use of funds:
   - Scale team to 50 people: $5M
   - Marketing & user acquisition: $3M
@@ -383,16 +385,15 @@ Additional annual revenue: $18M
 
 ## The Bottom Line
 
-**PV3 is a high-margin, scalable business with a clear path to $100M+ annual revenue.**
+**PV3 targets high-margin, scalable business model:**
 
-- **Year 1:** $1.5M-5M revenue (depending on viral adoption)
-- **Year 2:** $18M-50M revenue (scale phase)
-- **Year 3:** $72M-150M revenue (market leader)
+- **Year 1 Target:** $1.5M-5M revenue (depending on adoption)
+- **Year 2 Target:** $18M-50M revenue (scale phase)
+- **Year 3 Target:** $72M+ revenue (market leader scenario)
 
-**Gross margins: 95%+**
-**Capital requirements: Minimal (can bootstrap to profitability)**
-**Exit potential: $500M-1B+ valuation at scale**
+**Target gross margins: 95%+**
+**Capital strategy: Bootstrap to profitability if possible**
 
-This isn't a speculative crypto project. This is a real business with proven unit economics, clear path to profitability, and massive upside potential.
+This business model combines proven gaming platform economics with blockchain infrastructure. Success depends on execution, user adoption, and market timing.
 
-**We're building the Steam of Web3 gaming. And the economics are better than Steam's.**
+**Building cloud gaming infrastructure for Web3 with sustainable unit economics.**

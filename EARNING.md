@@ -1,6 +1,8 @@
 # Earn Forever with PV3
 
-**Multiple income streams. Lifetime revenue share. Build generational wealth.**
+**Multiple income streams. Lifetime revenue share.**
+
+> **Disclaimer:** All earnings examples below are hypothetical projections for illustrative purposes only. Actual results will vary significantly based on user acquisition, market conditions, competition, and individual effort. These are not guarantees or typical results.
 
 ---
 
@@ -59,17 +61,17 @@ Yearly passive: $180,000
 Time to build: 12-24 months
 ```
 
-**Example 4: Whale Affiliate (Tier 4)**
+**Example 4: Large-Scale Affiliate (Tier 4)**
 ```
-Referrals: 2,000 active players
-Average wager per player: $3,000/month
-Platform fee (6%): $180/month per player
-Total fees: $360,000/month
-Your cut (25%): $90,000/month
+Referrals: 500 active players
+Average wager per player: $1,500/month
+Platform fee (6%): $90/month per player
+Total fees: $45,000/month
+Your cut (25%): $11,250/month
 
-Yearly passive: $1,080,000
+Yearly passive: $135,000
 Time to build: 24-36 months
-GENERATIONAL WEALTH
+(Hypothetical - requires significant marketing reach)
 ```
 
 ---
@@ -235,40 +237,37 @@ Your referrals wager MORE over time as they:
 
 ### Revenue Examples for KOLs
 
-**Gaming YouTuber (500K subs):**
+**Gaming YouTuber Example (500K subs):**
 ```
-Converts 0.5% of audience: 2,500 players
-Average wager: $1,500/month
-Total fees: $225,000/month
-Your cut (28%): $63,000/month
+Hypothetical conversion: 0.25% of audience = 1,250 players
+Average wager: $800/month
+Total fees: $60,000/month
+Your cut (28%): $16,800/month
 
-Yearly: $756,000 passive
-Plus: Ad revenue, sponsors, donations
-Total yearly: $1M+
-```
-
-**Crypto Twitter KOL (250K followers):**
-```
-Converts 1% of audience: 2,500 players
-Average wager: $2,000/month (crypto natives wager higher)
-Total fees: $300,000/month
-Your cut (28%): $84,000/month
-
-Yearly: $1,008,000 passive
-Plus: Paid tweets, consulting, other deals
-Total yearly: $1.5M+
+Yearly: $201,600
+(Assumes strong conversion and engagement - not typical)
 ```
 
-**Twitch Streamer (100K followers):**
+**Crypto KOL Example (250K followers):**
 ```
-Converts 2% of audience: 2,000 players (streaming converts better)
+Hypothetical conversion: 0.5% of audience = 1,250 players
 Average wager: $1,000/month
-Total fees: $120,000/month
-Your cut (25%): $30,000/month
+Total fees: $75,000/month
+Your cut (28%): $21,000/month
 
-Yearly: $360,000 passive
-Plus: Subs, bits, ads, sponsors
-Total yearly: $500K+
+Yearly: $252,000
+(Assumes crypto-native audience with higher risk tolerance)
+```
+
+**Twitch Streamer Example (100K followers):**
+```
+Hypothetical conversion: 1% of audience = 1,000 players
+Average wager: $600/month
+Total fees: $36,000/month
+Your cut (25%): $9,000/month
+
+Yearly: $108,000
+(Streaming converts better but still dependent on content quality)
 ```
 
 ---
@@ -320,7 +319,7 @@ And this compounds as you grow
 - Subscribers get benefits
 - Referrals compound forever
 
-**Most streamers make $0-500/month. PV3 streamers make $5K-50K/month.**
+*Additional revenue potential from built-in platform monetization.*
 
 ---
 
@@ -349,37 +348,33 @@ And this compounds as you grow
 
 ### Developer Economics
 
-**Example 1: Indie Dev with Hit Game**
+**Example 1: Successful Indie Game (Hypothetical)**
 ```
 Your game: Tower Defense Battle
-Monthly active players: 5,000
-Average games per player: 20/month
-Total games: 100,000/month
-Average wager: 1 SOL
-Total volume: 100,000 SOL/month
-Platform fees (6%): 6,000 SOL/month
-Your share (50%): 3,000 SOL/month
+Monthly active players: 2,000
+Average games per player: 15/month
+Total games: 30,000/month
+Average wager: 0.5 SOL
+Total volume: 15,000 SOL/month
+Platform fees (6%): 900 SOL/month
+Your share (50%): 450 SOL/month
 
-At $100/SOL: $300,000/month
-At $200/SOL: $600,000/month
-
-Yearly: $3.6M - $7.2M from one game
+At $100/SOL: $45,000/month = $540,000/year
+(Assumes hit game with strong retention)
 ```
 
-**Example 2: Studio with Game Portfolio**
+**Example 2: Game Studio Portfolio (Hypothetical)**
 ```
-5 games averaging 2,000 players each
-Total monthly volume: 200,000 SOL
-Platform fees: 12,000 SOL/month
-Your share: 6,000 SOL/month
+3 games averaging 1,500 players each
+Total monthly volume: 22,500 SOL
+Platform fees: 1,350 SOL/month
+Your share: 675 SOL/month
 
-At $100/SOL: $600,000/month
-At $200/SOL: $1,200,000/month
-
-Yearly: $7.2M - $14.4M from 5 games
+At $100/SOL: $67,500/month = $810,000/year
+(Assumes multiple successful titles)
 ```
 
-**This is sustainable game development income.**
+**50% revenue share provides sustainable development income for successful games.**
 
 ---
 
@@ -544,14 +539,15 @@ Many gamers have 100+ gaming contacts
 - More features = more reasons to play
 - More streamers = more visibility
 
-**Your earnings 10x as the platform 10x's:**
+**Platform growth can compound referral earnings:**
 ```
+Example scenario (hypothetical):
 Year 1: $1,000/month from referrals
-Year 2: $10,000/month (10x user growth)
-Year 3: $100,000/month (another 10x)
+Year 2: $3,000/month (3x user growth)
+Year 3: $7,500/month (further growth)
 ```
 
-This isn't fantasy - this is how network effects work.
+*Network effects amplify referral revenue as platform scales.*
 
 ---
 
@@ -635,17 +631,17 @@ Time invested: 10-20 hours/month
 Hourly rate: $400-800/hour (Year 3)
 ```
 
-### Aggressive Estimate (Power Affiliate/KOL)
+### Optimistic Estimate (Power Affiliate/KOL - Rare)
 
 ```
 Month 1-3: Launch to 100 referrals → $2,250/month
-Month 4-6: Grow to 500 referrals → $15,000/month
-Month 7-12: Scale to 1,000 refs → $37,500/month
-Year 2: Reach 2,500 referrals → $112,500/month
-Year 3: Hit 5,000 referrals → $281,250/month
+Month 4-6: Grow to 250 referrals → $7,500/month
+Month 7-12: Scale to 500 refs → $18,750/month
+Year 2: Reach 750 referrals → $33,750/month
+Year 3: Hit 1,000 referrals → $50,000/month
 
-3-Year Total: $4,050,000 earned
-This is life-changing money
+3-Year Total: $900,000 earned
+(Requires significant audience and sustained marketing effort)
 ```
 
 ---
@@ -660,11 +656,9 @@ This is life-changing money
 - Instant payouts (SOL to wallet)
 - Scalable (no ceiling)
 
-**This isn't a side hustle. This is building generational wealth.**
+**Early participants have the potential to build significant passive income streams through lifetime revenue share.**
 
-**The early affiliates who scale to 1,000+ referrals will make $50K-100K/month. Forever.**
-
-**Ready to build your passive income empire?**
+**Scaling to 1,000+ referrals requires substantial marketing reach and sustained effort.**
 
 ---
 

@@ -7,31 +7,12 @@
 **UK-Based Solo Developer with 2 Years in the Solana Trenches**
 
 **Background:**
-- **Family runs successful multinational corporations** - Learned to build from childhood
-- **Inspired by their businesses, work ethic, and never-quit mentality** - Business DNA from day one
-- **Graduated from a redbrick top university in the UK** - BSc International Business
-- **Won grants and enterprise scholarships** at university for entrepreneurial ventures
-- **Ran successful IRL e-commerce businesses** before entering crypto
-- **Self-taught developer** who spent years nurturing and developing technical craft
-- **2 years actively building on Solana** with proven success
-- **Multiple successful projects** deployed to production
-- **Battle-tested** in the Solana ecosystem trenches
-
-**The Foundation:**
-Grew up watching family build and scale multinational corporations. Learned early that success requires relentless work ethic, never quitting, and obsessive attention to execution. That's the foundation I'm building PV3 on.
-
-**The Combination:**
-Generational business DNA + Business education + Entrepreneurial track record + Technical mastery = Exceptional founder profile
-
-**The Developer:**
-
-I consider myself a **workhorse**. Very hard working. I have no quit in me.
-
-This isn't just personality - it's **generational**. I grew up watching family members run multinational corporations. I saw what it takes to build and scale businesses at the highest level. That work ethic, that never-quit mentality, that obsessive attention to execution - it's in my DNA.
-
-I don't just write code - I craft experiences. I don't just build backends - I architect secure, scalable systems. I don't just deploy smart contracts - I ensure they're bulletproof.
-
-**Building is in my blood.**
+- BSc International Business from UK redbrick university
+- Won grants and enterprise scholarships for entrepreneurial ventures
+- Ran successful e-commerce businesses before crypto
+- Self-taught developer, 2 years building on Solana
+- Multiple production deployments in the ecosystem
+- Early pump.fun adopter, Solana native from day one
 
 **Why This Project:**
 
@@ -39,44 +20,30 @@ After 2 years of building various projects in the Solana ecosystem, it's time to
 
 **Why I'm the Right Person:**
 
-**1. Full-Stack Mastery:**
-- **Smart Contracts**: Production Solana programs with complex game logic and cryptographic verification
-- **Beautiful UIs**: Casino-grade polish, AAA game quality interfaces, obsessive attention to detail
-- **Robust Backends**: Scalable infrastructure built for 100K+ concurrent users, anti-cheat systems, real-time WebSockets
-- **Security-First**: Every system designed with defense-in-depth, zero-trust architecture
-- **Solo Shipping**: Can execute end-to-end without dependencies or coordination overhead
+**1. Full-Stack Technical Skills:**
+- Production Solana smart contracts with game logic and cryptographic verification
+- Frontend development with polished UI/UX
+- Scalable backend infrastructure for real-time gaming
+- Security-focused architecture with anti-cheat systems
+- End-to-end solo shipping capability
 
-**2. Solana Native & Ecosystem Pioneer:**
-- **Solana native from day one** - Not a multi-chain tourist, fully committed to Solana
-- **Early pump.fun adopter** - One of the first users to really take advantage of pump.fun when it initially launched
-- **2 years in the trenches** = Deep network, battle scars, and pattern recognition
-- **Seen multiple cycles**: Virus hype, NFT boom, meme coin season, pump.fun explosion
-- **Understands viral mechanics**: Watched what works and what dies in the Solana ecosystem
-- **Know how to navigate Solana's challenges**: RPC issues, congestion, spam, MEV
-- **Built relationships with key ecosystem players**: Developers, investors, KOLs
-- **Market timing expertise**: Recognized pump.fun's potential early, same instinct applies to gaming
+**2. Solana Ecosystem Experience:**
+- 2 years building on Solana (multiple production projects shipped)
+- Early pump.fun adopter, recognized platform potential early
+- Deep understanding of Solana's technical challenges and solutions
+- Network in ecosystem (developers, investors, community)
 
-**3. Relentless Work Ethic:**
-- **Workhorse mentality**: I outwork the competition
-- **No quit**: Obstacles are puzzles, not barriers
-- **Obsessive quality**: Every pixel, every line of code, every user interaction matters
-- **Long-term commitment**: This is my life's work for the next 5-10 years
+**3. Business & Entrepreneurial Background:**
+- BSc International Business from UK redbrick university
+- Won university grants and scholarships for ventures
+- Pre-crypto e-commerce experience (customer acquisition, unit economics)
+- Understand P&L, CAC, LTV, margins
 
-**4. Business Acumen & Entrepreneurial Track Record:**
-- **BSc International Business** from top UK redbrick university
-- **Won grants and enterprise scholarships** - Proven ability to pitch and secure funding
-- **Ran successful IRL e-commerce businesses** - Understand customer acquisition, unit economics, scaling
-- **Knows how to build sustainable businesses** - Not just a technical founder
-- **Can speak to investors** - Business education + entrepreneurial experience
-- **Understands P&L, CAC, LTV, margins** - Not learning business basics on the job
-
-**5. Execution Track Record:**
-- Shipped multiple successful projects to production
-- Can build and deploy end-to-end systems solo (smart contract → backend → frontend)
-- Self-funded through launch (no dependency on investors)
-- Proven ability to go from idea → production rapidly
-- Know how to ship under pressure and iterate based on user feedback
-- Built and scaled real businesses (e-commerce) before crypto
+**4. Execution Track Record:**
+- Multiple production deployments on Solana
+- Solo development from smart contract → backend → frontend
+- Self-funded through current stage
+- Rapid iteration based on user feedback
 
 ---
 
@@ -325,7 +292,7 @@ Vesting ensures long-term alignment.
 - User feedback drives development
 
 **2. Quality Over Quantity**
-- Casino-grade UI polish
+- Production-grade UI polish
 - No compromises on UX
 - Every detail matters
 
@@ -393,10 +360,10 @@ I'm not keeping 100% equity. Building a $1B company with 50% is better than buil
 - **Investors Who Operate**: Bring more than capital - network, expertise, hands-on value
 
 **High Bar:**
-- Must be exceptional at your craft (top 1% in your domain)
-- Must have scaled similar products before (no learning on the job)
-- Must be willing to outwork everyone (workhorse mentality required)
-- Must believe in 10-year vision (no mercenaries)
+- Exceptional at your craft (top 1% in your domain)
+- Scaled similar products before (no learning on the job)
+- Strong work ethic and long-term commitment required
+- Aligned on 10-year vision (no short-term mercenaries)
 
 **For Partnerships:**
 - Game developers interested in our SDK (50% revenue share)
