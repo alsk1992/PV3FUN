@@ -2,6 +2,31 @@
 
 **Gradual rollout strategy to maximize hype and ensure quality.**
 
+**Built for mainstream gamers, not crypto natives.** Casino-grade UI polish with AAA game quality. Feels like playing on Stake.com or a AAA gaming site, but you're earning on-chain.
+
+---
+
+## 🎮 Multi-Engine Game Platform
+
+**We support ANY game engine - we're the infrastructure layer for game developers.**
+
+### Supported Game Engines:
+- **Unity Engine**: Full multiplayer networking, cross-platform (PC, mobile, WebGL)
+- **Unreal Engine**: High-fidelity 3D games with dedicated server architecture
+- **Godot**: Open-source engine with full backend integration
+- **HTML5/WebGL**: Browser-native games with real-time sync
+- **Custom Engines**: RESTful + WebSocket API for any framework
+
+### AAA Real-Time Game Architecture:
+- **Authoritative server** prevents client-side cheating (clients can't lie)
+- **Sub-50ms tick rate** for competitive gameplay
+- **State reconciliation** and client-side prediction (Source Engine techniques)
+- **Deterministic lockstep** for perfect synchronization
+- **Lag compensation** from AAA shooters (player hitboxes, rewind)
+- **Region-based matchmaking** for <30ms latency
+
+**Built with anti-cheat as the foundation from day one.** Every system designed to prevent cheating, not patched in later.
+
 ---
 
 ## 🎮 Live Now (10 Games)
@@ -464,12 +489,15 @@
 - Oracle system for transparency
 - Public API for independent verification
 
-**Anti-Cheat Built-In:**
-- Server-side validation
-- Timing analysis
-- Replay hash verification
-- Pattern detection
-- Manual review system
+**Anti-Cheat-First Architecture:**
+- **Built with anti-cheat as the foundation from day one**
+- Zero-trust client model (clients can't lie)
+- Server-authoritative gameplay prevents cheating
+- Statistical anomaly detection on every action
+- Behavioral analysis across all matches
+- Timing analysis and replay hash verification
+- Multi-layer verification before payouts
+- Manual review system for flagged matches
 
 **Social Integration:**
 - Voice chat during matches
@@ -478,19 +506,22 @@
 - Share match links
 - Performance analytics cards
 
-**Seamless Experience:**
-- No wallet popups during gameplay
-- Session vault handles everything
+**Seamless Experience - No Wallet Pop-ups:**
+- No wallet pop-ups during gameplay (gas prepaid to Session Vault)
+- Session vault handles everything automatically
 - Instant match settlement
 - Sub-second payouts
-- True Web2 feel
+- **Feels like Stake.com or a AAA gaming site - zero blockchain friction**
+- **Web2 UX with Web3 benefits**
 
 **Earning Opportunities:**
-- Skill-based wagers
+- Skill-based wagers (not gambling - competitive gaming)
 - Tournament prizes
 - Leaderboard rewards
 - Referral bonuses
 - Streaming revenue
+
+**Why play free online games when you can earn by being good?**
 
 ---
 
@@ -499,10 +530,18 @@
 **PV3 becomes the Steam of blockchain gaming.**
 
 - 27 games at launch
+- **Multi-engine support**: Unity, Unreal, Godot, HTML5, Custom
 - Developer SDK for unlimited games
-- Any developer can deploy
-- Revenue share for game creators
+- Any developer can deploy with anti-cheat built-in
+- 50% revenue share for game creators (forever)
 - Complete gaming ecosystem
+
+**We're the gaming infrastructure layer for Solana:**
+- AAA real-time game architecture
+- Sub-50ms tick rate for competitive play
+- Server-authoritative anti-cheat
+- WebSocket API for any framework
+- Complete backend for multiplayer games
 
 **By 2026:**
 - 100+ games on platform
@@ -511,7 +550,9 @@
 - 50+ developer partners
 - #1 gaming platform on Solana
 
+**Built for mainstream users, not crypto natives.** We're onboarding the next 10 million Web2 gamers to Web3 with casino-grade UI quality and AAA game experiences.
+
 ---
 
 **Play. Compete. Earn. Repeat.**
-*27 games, infinite opportunities*
+*27 games, infinite opportunities, AAA gaming quality*

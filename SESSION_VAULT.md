@@ -1,4 +1,4 @@
-# Session Vault Infrastructure: Gas-Free Transaction Layer
+# Session Vault Infrastructure: Frictionless Transaction Layer
 
 ## The Problem We Solved
 
@@ -23,10 +23,10 @@ Result: User rage quits after game 3
 ```
 User wants to play 10 games:
 ✅ Deposit 1 SOL once
-✅ Play 10 games (no wallet interaction)
+✅ Play 10 games (no wallet pop-ups, no signing)
 ✅ Withdraw whenever
 
-Result: Seamless Web2-style experience
+Result: Seamless Web2-style experience - AAA gaming UI quality
 ```
 
 ---
@@ -91,11 +91,13 @@ State machine update with audit trail
 
 ---
 
-### 3. Gas-Free Gaming
+### 3. Frictionless Gaming - No Wallet Pop-ups
+
+**IMPORTANT:** Users DO pay gas fees, but there are NO annoying wallet pop-ups. Users prepay gas credits to their Session Vault (0.02 SOL). All game transactions use these credits automatically - no wallet pop-ups, no transaction signing, no interruptions. Just pure gameplay.
 
 **Match Creation (from Session Vault):**
 ```
-Step 1: Infrastructure fee deduction with threshold validation
+Step 1: Infrastructure fee deduction with threshold validation (from prepaid credits)
 Step 2: Balance sufficiency verification with atomic check
 Step 3: Cross-program invocation for escrow transfer
 Step 4: Vault balance update with consistency guarantee
@@ -106,10 +108,11 @@ Step 7: Return success with transaction finality
 
 **User Experience:**
 - ✅ Click "Create Match" button
-- ✅ NO wallet popup
-- ✅ NO transaction approval
+- ✅ NO wallet popup (gas prepaid)
+- ✅ NO transaction approval required
 - ✅ Match instantly created
 - ✅ Wager automatically deducted from vault
+- ✅ Feels like playing on Stake.com or a AAA game - zero blockchain friction
 
 ---
 
@@ -133,8 +136,9 @@ Transaction commitment with finality guarantee
 - ✅ Match ends
 - ✅ Result verified cryptographically
 - ✅ Winnings instantly in vault
-- ✅ NO wallet interaction
+- ✅ NO wallet interaction or pop-ups
 - ✅ Ready to play next game immediately
+- ✅ Web2 UX with Web3 benefits
 
 ---
 
@@ -172,18 +176,20 @@ Transaction finality with success return
 
 ### Auto-Refill System
 
-**Problem:** Users shouldn't worry about infrastructure fees
+**Problem:** Users shouldn't worry about gas fees and infrastructure costs
 
-**Solution:** Automatic credit management
+**Solution:** Automatic credit management with prepaid gas
+
+**Key Clarification:** Users DO pay gas fees, but they're prepaid in bulk to the vault. From the user's perspective, it feels completely frictionless - no signing, no approvals, no "transaction pending" states. This is the UX breakthrough that makes blockchain gaming feel like Web2 gaming.
 
 ```
 Infrastructure credit sufficiency check
 Conditional error on insufficient funds
-Atomic fee deduction from credit pool
+Atomic fee deduction from credit pool (prepaid gas used)
 Threshold evaluation for auto-refill trigger
 Event emission for off-chain notification
 Next deposit will trigger automatic top-up
-Zero user interaction required
+Zero user interaction required during gameplay
 ```
 
 **Fee Breakdown:**
@@ -193,10 +199,11 @@ Zero user interaction required
 - Auto-refill: 0.03 SOL (covers ~9 games)
 
 **User Experience:**
-- ✅ Deposit once
+- ✅ Deposit once (prepays gas credits)
 - ✅ Infrastructure credit auto-managed
 - ✅ Never runs out during gameplay
 - ✅ Silently topped up from deposits
+- ✅ Feels like Web2 gaming - no blockchain friction
 
 ---
 
@@ -381,16 +388,17 @@ Drop-off Rate:  80% after 3 games
 ### PV3 Session Vault
 
 ```
-Deposit:        ✅ One wallet approval
-Game 1:         ✅ Instant (no wallet)
-Game 2:         ✅ Instant (no wallet)
-Game 3:         ✅ Instant (no wallet)
-...             ✅ Instant (no wallet)
-Game 100:       ✅ Instant (no wallet)
+Deposit:        ✅ One wallet approval (prepays gas credits)
+Game 1:         ✅ Instant (no wallet pop-ups)
+Game 2:         ✅ Instant (no wallet pop-ups)
+Game 3:         ✅ Instant (no wallet pop-ups)
+...             ✅ Instant (no wallet pop-ups)
+Game 100:       ✅ Instant (no wallet pop-ups)
 Withdrawal:     ✅ One wallet approval
 
-User Friction:  1/10 (smooth)
+User Friction:  1/10 (AAA gaming smoothness)
 Drop-off Rate:  <5% (industry-leading retention)
+UX Quality:     Feels like Stake.com or AAA gaming site
 ```
 
 ---
@@ -439,6 +447,7 @@ The Session Vault infrastructure represents a fundamental architectural approach
 - 5x increase in average session duration
 - 80% reduction in onboarding drop-off
 - Web2-equivalent user experience on Web3 infrastructure
+- Casino-grade UI polish with blockchain benefits
 
 **Strategic Advantages:**
 - Novel architectural approach with execution lead time
@@ -446,4 +455,6 @@ The Session Vault infrastructure represents a fundamental architectural approach
 - Network effects compound with user growth
 - Technical complexity creates natural barriers to rapid replication
 
-This infrastructure layer enables mainstream viability.
+**The UX Breakthrough:** Users still pay gas, but it's prepaid in bulk from the vault balance. From the user's perspective, it feels completely frictionless - no signing, no approvals, no "transaction pending" states. This is how we make blockchain gaming feel like Web2 gaming.
+
+**Built for mainstream users, not crypto natives.** This infrastructure layer enables mainstream viability and onboards the next 10 million Web2 gamers to Web3.

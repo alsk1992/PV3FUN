@@ -5,8 +5,8 @@
 **Professional Mermaid diagrams available in `/diagrams/`:**
 - **[System Architecture](./diagrams/system-architecture.mmd)** - Complete platform overview
 - **[Match Flow Sequence](./diagrams/match-flow.mmd)** - End-to-end match lifecycle
-- **[Session Vault System](./diagrams/session-vault.mmd)** - Gas-free gaming architecture
-- **[6-Layer Anti-Cheat](./diagrams/anti-cheat.mmd)** - Security validation flow
+- **[Session Vault System](./diagrams/session-vault.mmd)** - Frictionless gaming architecture (no wallet pop-ups)
+- **[6-Layer Anti-Cheat](./diagrams/anti-cheat.mmd)** - Security validation flow (anti-cheat-first design)
 - **[Earning Ecosystem](./diagrams/earning-ecosystem.mmd)** - Revenue distribution
 
 **View on GitHub for automatic rendering, or use https://mermaid.live/**
@@ -15,7 +15,9 @@
 
 ## System Overview
 
-PV3 is built as a three-tier architecture optimized for real-time gaming on Solana:
+**Built from day one with anti-cheat as the foundation.** Every system designed with security, fairness, and AAA gaming UX in mind.
+
+PV3 is built as a three-tier architecture optimized for real-time gaming on Solana with casino-grade UI polish:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -280,9 +282,15 @@ Frame interpolation for smooth UX
 
 ---
 
-## Session Vault Infrastructure
+## Session Vault Infrastructure - Frictionless Gaming
 
-### Gas Optimization Layer
+### No Wallet Pop-ups During Gameplay
+
+**IMPORTANT:** Users DO pay gas fees, but there are NO annoying wallet pop-ups. Users prepay gas credits to their Session Vault (0.02 SOL). All game transactions use these credits automatically - no wallet pop-ups, no transaction signing, no interruptions. Just pure gameplay.
+
+**This is the UX breakthrough that makes blockchain gaming feel like Web2 gaming.**
+
+### Frictionless Transaction Layer
 
 ```
 User Wallet (External)
@@ -306,12 +314,13 @@ User Wallet (External)
 
 ### Infrastructure Management
 
-**Automated Gas Reserve System:**
+**Automated Gas Reserve System (Prepaid Credits):**
 ```
 Dynamic infrastructure credit monitoring
 Threshold-based automatic replenishment
-Predictive balance management
+Predictive balance management with prepaid gas
 Amortized cost allocation across sessions
+Users pay gas, but it's prepaid in bulk - no pop-ups
 ```
 
 **Cost Recovery Protocol:**
@@ -320,14 +329,16 @@ Transparent initial vault creation costs
 Automatic recovery on first deposit
 Zero-UX-impact cost distribution
 Byzantine-resistant accounting
+Gas credits managed automatically
 ```
 
-**Friction-Free Gaming:**
+**Frictionless Gaming Experience:**
 - Single authorization enables unlimited transactions
-- Zero-approval gameplay experience
+- No wallet pop-ups during gameplay (gas prepaid)
 - Infrastructure costs abstracted from user
 - Sub-second settlement to vault balance
 - Flexible withdrawal with tiered fee structure
+- **Feels like Stake.com or a AAA gaming site - zero blockchain friction**
 
 ---
 
@@ -439,7 +450,14 @@ Load Balancer (L7)
 - **Input Sanitization**: Whitelist-based validation with type constraints
 - **Injection Prevention**: Parameterized queries with prepared statements
 
-### Game Integrity Enforcement
+### Game Integrity Enforcement - Anti-Cheat-First Architecture
+
+**Every system built with anti-cheat as the foundation from day one:**
+- Zero-trust client model (clients can't lie)
+- Server-authoritative gameplay prevents cheating
+- Statistical anomaly detection on every action
+- Behavioral analysis across all matches
+- Multi-layer verification before payouts
 
 **Turn-Based Games:**
 - Rule engine with formal verification properties
@@ -448,10 +466,11 @@ Load Balancer (L7)
 - Deterministic tie-breaking protocols
 
 **Real-Time Games:**
-- Server-authoritative state management
+- Server-authoritative state management (no client-side trust)
 - Statistical timing analysis for bot detection
 - Cryptographic replay verification
 - Multi-path validation with consensus mechanisms
+- Sub-50ms tick rate for competitive gameplay
 
 ---
 
@@ -544,12 +563,37 @@ Server → Client:
 
 ---
 
+## Multi-Engine Game Support
+
+**We're the infrastructure layer for any game developer:**
+
+### Supported Game Engines:
+- **Unity Engine**: Full multiplayer networking, cross-platform deployment
+- **Unreal Engine**: High-fidelity 3D games with dedicated server architecture
+- **Godot**: Open-source engine with full backend integration
+- **HTML5/WebGL**: Browser-native games with real-time WebSocket sync
+- **Custom Engines**: RESTful + WebSocket API for any framework
+
+### AAA Real-Time Game Architecture:
+- Authoritative server prevents client-side cheating
+- Sub-50ms tick rate for competitive gameplay
+- State reconciliation and client-side prediction (Source Engine techniques)
+- Deterministic lockstep for perfect synchronization
+- Lag compensation from AAA shooters (player hitboxes, rewind)
+- Region-based matchmaking for <30ms latency
+
+---
+
 This architecture supports:
 - ✅ Sub-second match settlement
 - ✅ 10,000+ concurrent users
-- ✅ Gas-free user experience
+- ✅ Frictionless user experience (no wallet pop-ups)
 - ✅ Cryptographically verifiable fairness
 - ✅ Horizontal scalability
 - ✅ 99.9% uptime
+- ✅ Casino-grade UI polish with Web3 benefits
+- ✅ Anti-cheat-first design in every system
 
-Built for production scale from day one.
+**Built for production scale and mainstream adoption from day one.**
+
+**Built for mainstream users, not crypto natives.** AAA gaming UX that happens to be blockchain-powered.

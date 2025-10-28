@@ -2,6 +2,31 @@
 
 **The features that separate us from every other gaming platform.**
 
+**Casino-grade UI polish with AAA game quality.** Built for mainstream users, not crypto natives. Feels like Stake.com or a AAA gaming site, but you're earning on-chain with Web3 benefits.
+
+---
+
+## 🎮 Multi-Engine Game Platform
+
+**We're not just a platform - we're the infrastructure layer for any game developer.**
+
+### Supported Game Engines:
+- **Unity Engine**: Full multiplayer networking, cross-platform deployment (PC, mobile, WebGL)
+- **Unreal Engine**: High-fidelity 3D games with dedicated server architecture
+- **Godot**: Open-source engine with full backend integration
+- **HTML5/WebGL**: Browser-native games with real-time WebSocket sync
+- **Custom Engines**: RESTful + WebSocket API for any framework
+
+### AAA Real-Time Game Architecture:
+- **Authoritative server** prevents client-side cheating (clients can't lie)
+- **Sub-50ms tick rate** for competitive gameplay
+- **State reconciliation** and client-side prediction (Source Engine techniques)
+- **Deterministic lockstep** for perfect synchronization
+- **Lag compensation** from AAA shooters (player hitboxes, rewind)
+- **Region-based matchmaking** for <30ms latency
+
+**Developers:** Build competitive multiplayer games with our anti-cheat infrastructure built-in from day one.
+
 ---
 
 ## 🔒 Privacy Layer: ZK-Compressed Gaming
@@ -151,6 +176,8 @@ Special:
 
 **Enterprise-grade embedded wallet infrastructure**
 
+**Built for mainstream users, not crypto natives.** Your mom could use this - no seed phrases, no gas pop-ups.
+
 **Sign Up Methods:**
 ```
 ✅ Google OAuth
@@ -171,11 +198,14 @@ Traditional Crypto:
 5. Connect wallet to app
 → 90% drop-off rate
 
-Modern Approach:
+PV3 Approach:
 1. Click "Sign in with Google"
-2. Play immediately
+2. Play immediately (no wallet pop-ups during gameplay)
 → 95% conversion rate
 ```
+
+**Seamless Gaming - No Wallet Pop-ups:**
+Users prepay gas credits to their Session Vault (one-time 0.02 SOL). All game transactions use these credits automatically - no wallet pop-ups, no transaction signing, no interruptions. Just pure gameplay.
 
 **Technical Architecture:**
 - Token-based authentication with signature verification
@@ -297,9 +327,13 @@ Monitoring:            Real-time observability platform
 
 ## 🛡️ Advanced Anti-Cheat System
 
+**Every system designed from day one with anti-cheat as the foundation.**
+
+We built everything with anti-cheat in mind from the start - not as an afterthought. Zero-trust client model, server-authoritative gameplay, statistical anomaly detection on every action, behavioral analysis across all matches, and multi-layer verification before payouts.
+
 ### Multi-Layer Security
 
-**Layer 1: Server-Side Validation**
+**Layer 1: Server-Side Validation (Anti-Cheat-First Architecture)**
 ```
 Chess:
 - Legal move validation
@@ -528,6 +562,8 @@ Uptime:          99.9%
 - Real-time monitoring and alerting
 
 **We're obsessed with performance because every millisecond matters in competitive gaming.**
+
+**This is AAA game studio quality infrastructure - casino-grade polish with Web3 benefits.**
 
 ---
 
@@ -815,11 +851,16 @@ Featured Stats:
 ## 🎯 The Complete Package
 
 **PV3 isn't just a gaming platform. It's:**
+- **Casino-grade UI quality** (Stake.com polish with Web3 benefits)
+- **Multi-engine support** (Unity, Unreal, Godot, HTML5, Custom)
+- **AAA game architecture** (sub-50ms tick rate, lag compensation)
+- **Anti-cheat-first design** (built into every system from day one)
 - Privacy-first gaming (ZK-compressed transactions)
 - AI research platform (AI agent ecosystem)
 - Competitive esports (tournaments, rankings)
 - Social gaming hub (chat, streaming, profiles)
-- Web2 onboarding (embedded wallets)
+- **Web2 onboarding** (embedded wallets, no seed phrases)
+- **Frictionless gaming** (no wallet pop-ups, gas prepaid)
 - Enterprise infrastructure (global CDN, managed services)
 - Production-grade security (multi-layer anti-cheat)
 - Bulletproof reliability (connection recovery)
@@ -827,7 +868,11 @@ Featured Stats:
 
 **Every feature serves the mission: Make skill-based gaming accessible, fair, and profitable for everyone.**
 
+**Built for mainstream users, not crypto natives.** We're onboarding the next 10 million Web2 gamers to Web3 with AAA gaming quality.
+
+**Why play free online games when you can earn by being good?**
+
 ---
 
 **PV3 - The Complete Gaming Ecosystem**
-*Not just features. A revolution.*
+*AAA gaming quality. Casino-grade UI. Web2 UX with Web3 benefits.*
