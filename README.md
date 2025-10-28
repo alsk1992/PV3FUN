@@ -259,6 +259,7 @@ Users prepay gas credits to their Session Vault (one-time 0.02 SOL). All game tr
 - **Coming Soon:** USDC/USDT stablecoin deposits for fiat-pegged wagers
 
 **Security:**
+- **Smart Contract Audit Before Main Beta Launch** - Full professional audit of all game logic and financial flows
 - Optional 2FA (0.1% withdrawal fee vs 0.5%)
 - Multi-layer anti-cheat system
 - Connection recovery (never lose to lag)

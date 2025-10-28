@@ -133,7 +133,40 @@
 
 ---
 
-## 🚀 Coming Soon (11 Games)
+### Chart Trading Games (Innovative 1v1 Prediction Markets)
+
+**Real-time chart prediction battles - our most innovative game category.**
+
+#### **Pump Wars**
+- Live chart prediction PvP
+- Both players watch same real-time price chart
+- Predict: Will price go UP or DOWN in next 30 seconds?
+- Lock in predictions simultaneously
+- Whoever's closer to actual movement wins
+- Real market data feeds (crypto price movements)
+- **Skill ceiling**: Very High - technical analysis, momentum reading, market psychology
+- **Average match**: 1 minute
+- **Innovation**: First blockchain game to gamify chart reading skills
+
+#### **Chart Duel** (Second Chart Game)
+- Similar chart-based prediction mechanics
+- Extended timeframes (1min, 3min, 5min intervals)
+- Multiple rounds with cumulative scoring
+- Pattern recognition and trend analysis
+- **Skill ceiling**: Very High - requires trading experience
+- **Average match**: 3-5 minutes
+- **Innovation**: Rewards real trading skills in competitive format
+
+**Why These Games Matter:**
+- Attract crypto traders and DeFi users (natural audience)
+- High skill ceiling = sustainable competitive scene
+- Unique to PV3 - no other platform has chart-based PvP games
+- Natural crossover between gaming and trading communities
+- Shareable content (clutch predictions, upset victories)
+
+---
+
+## 🚀 Coming Soon (9 More Games)
 
 ### Classic Arcade
 
