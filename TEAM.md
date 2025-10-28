@@ -358,13 +358,18 @@ Vesting ensures long-term alignment.
 
 ## The Vision
 
-**PV3 is more than a gaming platform. It's the infrastructure layer for Web3 gaming on Solana.**
+**PV3 is more than a gaming platform. It's the cloud gaming infrastructure layer for Web3.**
 
 I'm not building this to flip it in 6 months. I'm building this to become the dominant gaming platform in Web3 over the next 5-10 years.
 
 **The mission:** Make blockchain gaming feel like Web2 gaming, but with earning potential. Onboard the next 10 million Web2 gamers to Web3.
 
-**The goal:** Build the Steam of Web3. Become the platform where gamers earn, developers build, and creators grow.
+**The positioning:**
+- **Not "Web3 Steam"** - Steam requires downloads and installs
+- **We're Xbox Cloud Gaming + Web3 earning** - Instant access, play anywhere, earn everywhere
+- **Cloud gaming meets blockchain** - Browser-based AAA quality with real money stakes
+
+**The goal:** Become the platform where gamers earn, developers build, and creators grow. The instant-access gaming platform of Web3.
 
 **The commitment:** Whatever it takes. This is my life's work.
 

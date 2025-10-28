@@ -55,6 +55,15 @@ No expensive console. No gaming PC setup. Just a phone or laptop and you're in.
 - Works on any device
 - Future native mobile apps with exclusive games
 
+**Think Xbox Cloud Gaming or GeForce NOW, but you earn.**
+
+We're not "Web3 Steam" - we're the **cloud gaming platform of Web3.**
+
+Steam requires downloads and installs. Xbox Cloud Gaming lets you play anywhere instantly. **PV3 combines both:**
+- **Instant access** like cloud gaming (no downloads, no installs)
+- **Earning potential** like Web3 (real money, real stakes)
+- **AAA quality** like major platforms (not crypto dApp quality)
+
 **Built for mainstream users, not crypto natives.** Your mom could use this - no seed phrases, no gas pop-ups. We're the bridge from Web2 gaming to Web3 earning. AAA user experience that happens to be blockchain-powered.
 
 ---

@@ -428,6 +428,13 @@ Virus will be forgotten in 6 months. Casino clones will struggle with poor UX. O
 
 **We're not just better than competitors. We're playing a different game.**
 
-This is the Steam of Web3. This is the infrastructure layer for gaming on Solana.
+We're not "Web3 Steam" - we're the **cloud gaming platform of Web3.**
+
+Steam requires downloads. Xbox Cloud Gaming gives instant access. **PV3 combines both:**
+- Instant access (no downloads, browser-based)
+- Earning potential (Web3 money)
+- AAA quality (not crypto dApp quality)
+
+This is the infrastructure layer for gaming on Solana. The instant-access, play-anywhere, earn-everywhere platform.
 
 **And we're just getting started.**
