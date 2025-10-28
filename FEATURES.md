@@ -145,11 +145,11 @@ Special:
 
 ---
 
-## 🔐 Web2 Onboarding: Privy Authentication
+## 🔐 Web2 Onboarding: Enterprise Authentication
 
 ### No Seed Phrases. No Friction.
 
-**Powered by Privy.io** - Enterprise-grade embedded wallets
+**Enterprise-grade embedded wallet infrastructure**
 
 **Sign Up Methods:**
 ```
@@ -171,19 +171,19 @@ Traditional Crypto:
 5. Connect wallet to app
 → 90% drop-off rate
 
-With Privy:
+Modern Approach:
 1. Click "Sign in with Google"
 2. Play immediately
 → 95% conversion rate
 ```
 
-**Technical Details:**
-- JWT-based authentication
-- JWKS endpoint verification
-- Embedded wallet creation (MPC)
-- No private keys exposed to frontend
-- Account recovery via social
-- Progressive disclosure of complexity
+**Technical Architecture:**
+- Token-based authentication with signature verification
+- Public key infrastructure with endpoint validation
+- Multi-party computation for key management
+- Zero client-side key exposure
+- Social recovery mechanisms
+- Progressive security disclosure
 
 **This is how we onboard mainstream users.**
 
@@ -191,107 +191,107 @@ With Privy:
 
 ## 📊 Production Infrastructure
 
-### Sentry Error Tracking
+### Real-Time Monitoring & Observability
 
-**Real-Time Monitoring:**
-- Automatic error capture
-- Performance tracking
-- User session replay
-- Error clustering
-- Alerting and notifications
-- Release tracking
+**Comprehensive Error Tracking:**
+- Automatic exception capture across all layers
+- Performance telemetry and profiling
+- User session replay for debugging
+- Intelligent error clustering and deduplication
+- Alert routing with escalation policies
+- Release-based regression detection
 
-**What We Track:**
+**Monitored Metrics:**
 ```
-Errors:
-- JavaScript exceptions
-- API failures
-- WebSocket disconnections
-- Game logic errors
-- Payment failures
+Error Domain:
+- Client-side exceptions
+- API failure conditions
+- Connection state anomalies
+- Game logic violations
+- Payment processing failures
 
-Performance:
-- API response times
-- Database query times
-- WebSocket latency
-- Frame rates
-- Memory usage
+Performance Domain:
+- Request/response latencies (p50, p95, p99)
+- Database query performance
+- Real-time connection latency
+- Client-side rendering performance
+- Memory utilization patterns
 
-Business Metrics:
-- Failed match creations
-- Abandoned deposits
-- Disconnection rates
-- User journey funnels
-```
-
-**Admin Dashboard Integration:**
-- Real-time error feed
-- Performance graphs
-- User impact analysis
-- One-click debugging
-- Version comparison
-
-### Cloudflare Stream Integration
-
-**Enterprise Video Infrastructure:**
-- Global CDN (290+ cities worldwide)
-- Sub-second latency
-- Automatic transcoding
-- Adaptive bitrate streaming
-- DVR functionality
-- 4K streaming support
-
-**Features:**
-```
-Live Streaming:
-- RTMP ingest
-- WebRTC streaming
-- HLS/DASH delivery
-- Real-time captions
-- Stream recording
-
-VODs:
-- Automatic archiving
-- Clip creation
-- Thumbnail generation
-- Download options
-- Embeddable player
+Business Domain:
+- Transaction funnel analysis
+- User journey drop-off points
+- Connection stability metrics
+- Financial transaction success rates
 ```
 
-**Why Cloudflare:**
-- 99.99% uptime SLA
-- Built-in DDoS protection
-- No bandwidth limits
-- Pay-per-minute pricing
-- Developer-friendly API
+**Operations Dashboard:**
+- Real-time telemetry visualization
+- Performance trend analysis
+- User impact quantification
+- Root cause analysis tools
+- Version comparison and regression detection
 
-### Hosting: Railway
+### Global Content Delivery Network
 
-**Why Railway:**
-- One-click Postgres
-- Managed Redis
-- Auto-scaling
-- GitHub integration
-- Zero-downtime deploys
-- Built-in metrics
+**Enterprise Streaming Infrastructure:**
+- 290+ global edge locations
+- Sub-second playback latency
+- Automatic multi-bitrate transcoding
+- Adaptive streaming optimization
+- Time-shift DVR functionality
+- Ultra-HD streaming support
 
-**Our Stack:**
+**Streaming Features:**
 ```
-Backend:     Railway (NestJS container)
-Database:    Railway Postgres (managed)
-Cache:       Railway Redis (managed)
-Frontend:    Vercel (Next.js)
-Blockchain:  Solana (Helius RPC)
-Streaming:   Cloudflare Stream
-Monitoring:  Sentry
+Live Distribution:
+- Low-latency ingest protocols
+- Real-time media processing
+- Multi-format delivery (HLS/DASH)
+- Live caption support
+- Persistent archiving
+
+Video On Demand:
+- Automatic content archiving
+- Dynamic clip generation
+- Thumbnail extraction
+- Embeddable player widgets
+- Download functionality
 ```
 
-**Deployment:**
-- Git push → Auto-deploy
-- Preview environments
-- Rollback in seconds
-- Environment variables
-- Automatic SSL
+**Infrastructure Benefits:**
+- 99.99% uptime SLA guarantee
+- Integrated DDoS mitigation
+- Unlimited bandwidth capacity
+- Usage-based pricing model
+- RESTful management API
+
+### Managed Platform Infrastructure
+
+**Infrastructure Advantages:**
+- Fully managed relational database
+- Distributed caching layer
+- Automatic horizontal scaling
+- CI/CD integration
+- Zero-downtime deployments
+- Built-in observability
+
+**Technology Stack:**
+```
+Application Layer:     Microservice containers
+Data Layer:            Managed relational database
+Cache Layer:           Distributed in-memory store
+Frontend:              Edge-optimized static delivery
+Blockchain:            Premium RPC infrastructure
+Streaming:             Global CDN
+Monitoring:            Real-time observability platform
+```
+
+**Deployment Strategy:**
+- Git-based automatic deployments
+- Ephemeral preview environments
+- Instant rollback capabilities
+- Environment isolation
+- TLS certificate automation
 
 ---
 
@@ -390,39 +390,39 @@ Fifth:          Permanent ban + wallet blacklist
 **Auto-Reconnect System:**
 ```
 Disconnect Detected →
-  Save match state to Redis →
+  Persist match state to distributed cache →
     User reconnects within 60s →
       Resume exactly where left off →
         No progress lost
 ```
 
-**State Preservation:**
-- Match state saved every action
-- Redis-backed persistence
-- 60-second reconnection window
-- Automatic match resume
-- Opponent notified of disconnect
+**State Preservation Architecture:**
+- Continuous state snapshots per action
+- Distributed persistence layer
+- 60-second grace period for reconnection
+- Automatic session resumption
+- Real-time opponent notifications
 
 **Timeout Handling:**
 ```
 If disconnect > 60s:
-  Turn-based games: Auto-lose
-  Real-time games: Auto-forfeit
+  Turn-based games: Forfeiture with timeout
+  Real-time games: Automatic forfeit
   Wager refunded to both players if < 30s gameplay
 ```
 
-**WebSocket Recovery:**
-- Automatic reconnection attempts
-- Exponential backoff
-- Fallback to long-polling
-- No page refresh needed
+**Connection Recovery Protocol:**
+- Automatic exponential backoff retries
+- Fallback to long-polling transport
+- Seamless session migration
+- Zero user interaction required
 
-**Edge Cases:**
+**Fault Tolerance:**
 ```
-Power outage: Match state saved, resume on return
-Internet drop: Auto-reconnect when online
-Server restart: All matches preserved in Redis
-Browser crash: Rejoin link in email/notification
+Power outage: State persisted, resume on return
+Network interruption: Automatic reconnection
+Infrastructure restart: Distributed state preserved
+Client crash: Email notification with rejoin link
 ```
 
 ---
@@ -433,26 +433,26 @@ Browser crash: Rejoin link in email/notification
 
 **We're constantly optimizing because we want EVERYONE to access PV3.**
 
-**Caching Strategy:**
+**Multi-Tier Caching Strategy:**
 ```
-LRU Cache (In-Memory):
-- Hot data (10ms access)
-- 12MB limit (Railway optimized)
-- User sessions
-- Active match state
+L1 Cache (In-Memory):
+- Hot data (10ms access latency)
+- Memory-constrained for efficiency
+- Active user sessions
+- Real-time match state
 
-Redis Cache (Distributed):
-- Warm data (50ms access)
-- Unlimited storage
-- Match history
-- Leaderboards
-- User profiles
+L2 Cache (Distributed):
+- Warm data (50ms access latency)
+- Horizontally scalable storage
+- Recent match history
+- Dynamic leaderboards
+- User profile data
 
-PostgreSQL (Persistent):
-- Cold data (100ms access)
-- Full match records
+L3 Storage (Persistent):
+- Cold data (100ms access latency)
+- Complete match audit trail
 - Transaction history
-- Analytics data
+- Historical analytics
 ```
 
 **Batch Query System:**
@@ -521,11 +521,11 @@ Uptime:          99.9%
 ```
 
 **Continuous Optimization:**
-- Weekly performance audits
-- A/B testing optimizations
-- User feedback integration
-- Load testing before releases
-- Monitoring with Sentry
+- Weekly performance audits and profiling
+- A/B testing for optimization validation
+- User feedback integration loops
+- Comprehensive load testing protocols
+- Real-time monitoring and alerting
 
 **We're obsessed with performance because every millisecond matters in competitive gaming.**
 
@@ -815,12 +815,12 @@ Featured Stats:
 ## 🎯 The Complete Package
 
 **PV3 isn't just a gaming platform. It's:**
-- Privacy-first gaming (Light Protocol)
-- AI research platform (AI agents)
+- Privacy-first gaming (ZK-compressed transactions)
+- AI research platform (AI agent ecosystem)
 - Competitive esports (tournaments, rankings)
 - Social gaming hub (chat, streaming, profiles)
-- Web2 onboarding (Privy)
-- Enterprise infrastructure (Sentry, Cloudflare, Railway)
+- Web2 onboarding (embedded wallets)
+- Enterprise infrastructure (global CDN, managed services)
 - Production-grade security (multi-layer anti-cheat)
 - Bulletproof reliability (connection recovery)
 - Optimized for scale (100K+ concurrent users)

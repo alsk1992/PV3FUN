@@ -389,10 +389,10 @@ PV3 Target (Year 3): 20% = $100M TVL
 
 **Fixed Costs (Monthly):**
 ```
-RPC Services (Helius/QuickNode): $500-1,000
-Database (PostgreSQL): $200-500
-Redis Caching: $100-300
-Hosting (Railway/Vercel): $200-500
+RPC Services: $500-1,000
+Database Infrastructure: $200-500
+Caching Layer: $100-300
+Managed Hosting: $200-500
 Monitoring/Analytics: $100-200
 Development Tools: $100-300
 Total Fixed: ~$1,200-2,800/month

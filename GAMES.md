@@ -20,7 +20,7 @@
 #### **Rock Paper Scissors**
 - Best-of-5 format
 - Simultaneous reveal (no peeking)
-- 3D hand animations with physics
+- 3D hand animations with synchronized timing
 - Psychological mind games
 - Quick 30-second rounds
 - **Skill ceiling**: Medium - pattern reading and psychology
@@ -28,10 +28,10 @@
 
 #### **Coinflip**
 - Best-of-5 coin flips
-- Realistic 3D physics simulation
+- Hardware-accelerated 3D visualization
 - Call heads or tails
 - Pure 50/50 odds per flip
-- Three.js powered animations
+- Cryptographically-verified random outcomes
 - **Skill ceiling**: Low - mostly luck with bankroll management
 - **Average match**: 1-2 minutes
 
@@ -44,7 +44,7 @@
 - Choose your build before match
 - Different builds = different dice combinations
 - Highest total wins
-- 3D dice physics with DiceBox.js
+- Real-time 3D dice simulation with deterministic results
 - **Skill ceiling**: Medium - build selection and risk management
 - **Average match**: 30 seconds
 
@@ -150,10 +150,10 @@
 
 #### **Sports Heads**
 - 1v1 sports game (soccer/basketball)
-- Physics-based gameplay
+- Dynamic gameplay with collision detection
 - Quick 2-minute matches
 - Power-ups and special moves
-- Hilarious ragdoll physics
+- Entertaining character animations
 - **Skill ceiling**: High - timing and positioning
 
 #### **Racing**
@@ -216,10 +216,10 @@
 
 #### **Unity 3D Racing**
 - Full 3D racing experience
-- Multiple cars and tracks
-- Realistic physics
+- Multiple vehicles and tracks
+- Advanced vehicle dynamics
 - Drift, boost, draft mechanics
-- Photo-finish replays
+- Replay system with photo-finish
 - **Skill ceiling**: Very High - racing simulation
 - **Status**: Beta testing
 
@@ -227,25 +227,25 @@
 - 3D fighting game
 - Multiple characters and stages
 - Special moves and combos
-- Juggling and air combos
-- Cinematic finishers
+- Advanced combo system
+- Cinematic finishing moves
 - **Skill ceiling**: Very High - fighting game depth
 - **Status**: Character design phase
 
 #### **Unity Strategy**
 - Real-time strategy
-- Base building and units
-- Micro and macro play
-- Multiple factions
+- Base building and unit control
+- Micro and macro-level management
+- Multiple faction systems
 - Competitive 1v1 ranked
 - **Skill ceiling**: Very High - RTS fundamentals
 - **Status**: Core mechanics
 
 #### **Unity Sports**
 - 3D sports game (soccer, basketball, hockey)
-- Team management
-- Realistic physics
-- Skill-based gameplay
+- Team management system
+- Skill-based movement and controls
+- Competitive gameplay mechanics
 - Tournament modes
 - **Skill ceiling**: High - sports game mechanics
 - **Status**: Concept phase
@@ -292,7 +292,7 @@
 - Tournament ecosystem
 
 **Development Status:**
-- Engine: Unity + Netcode for GameObjects
+- Engine: Modern 3D game engine with networking
 - Phase: Core shooting mechanics complete
 - Beta: Q2 2025
 - Full Launch: Q3 2025
@@ -458,7 +458,7 @@
 
 ### Every Game Has:
 
-**Provably Fair Verification:**
+**Cryptographic Verification:**
 - Ed25519 cryptographic signatures
 - On-chain result verification
 - Oracle system for transparency
@@ -476,9 +476,9 @@
 - Text chat with reactions
 - Spectator mode
 - Share match links
-- PnL cards for bragging
+- Performance analytics cards
 
-**Seamless UX:**
+**Seamless Experience:**
 - No wallet popups during gameplay
 - Session vault handles everything
 - Instant match settlement

@@ -172,7 +172,7 @@ We're leaning toward **Option 2** to keep human skill competition pure while cre
 
 ### Web2-Style Onboarding
 
-**Powered by Privy** - No seed phrases needed
+**Enterprise-Grade Embedded Wallets** - No seed phrases needed
 
 **Sign Up With:**
 - Google, Twitter, Discord OAuth
@@ -185,18 +185,18 @@ We're leaning toward **Option 2** to keep human skill competition pure while cre
 Traditional: Download wallet → Seed phrase → Buy crypto → Transfer → Connect
 → 90% drop-off
 
-Privy: Click "Sign in with Google" → Play immediately
+Modern Approach: Click "Sign in with Google" → Play immediately
 → 95% conversion
 ```
 
 ### Production Infrastructure
 
 **Enterprise-Grade Technology:**
-- **Sentry**: Real-time error tracking and performance monitoring
-- **Cloudflare Stream**: Global CDN for streaming (290+ cities worldwide)
-- **Railway**: Managed Postgres + Redis + auto-scaling infrastructure
-- **Helius RPC**: Premium Solana node infrastructure
-- **Wormhole Bridge**: Seamless cross-chain deposits from Ethereum, BSC, and Polygon
+- Real-time error tracking and performance monitoring
+- Global CDN for streaming (290+ cities worldwide)
+- Managed database and caching infrastructure with auto-scaling
+- Premium Solana node infrastructure
+- Cross-chain bridge for seamless deposits from Ethereum, BSC, and Polygon
 
 **Flexible Payment Methods:**
 - Native SOL (primary)
@@ -301,8 +301,8 @@ Privy: Click "Sign in with Google" → Play immediately
 ### Resilient Connection Architecture
 
 **Byzantine-Fault-Tolerant State Management:**
-- Redis-backed distributed state machine with 60-second grace period
-- Automatic WebSocket reconnection with exponential backoff
+- Distributed state machine with 60-second grace period
+- Automatic connection recovery with exponential backoff
 - Idempotent message handling prevents duplicate actions
 - Transaction log replay for seamless state recovery
 - Sub-30s disconnect triggers automatic wager refund (fairness guarantee)
@@ -312,9 +312,9 @@ Privy: Click "Sign in with Google" → Play immediately
 **Engineered for 100K+ concurrent users with continuous optimization:**
 
 **Multi-Tier Caching Hierarchy:**
-- **L1 (LRU Cache):** In-memory hot data (< 10ms p99 latency)
-- **L2 (Redis Cluster):** Distributed warm data (< 50ms p99 latency)
-- **L3 (PostgreSQL):** Persistent cold data with read replicas
+- **L1 Cache:** In-memory hot data (< 10ms p99 latency)
+- **L2 Cache:** Distributed warm data (< 50ms p99 latency)
+- **L3 Persistent:** Cold data with read replicas
 
 **Advanced Optimization Techniques:**
 - **Request Coalescing:** N+1 query elimination via batch loaders
@@ -406,12 +406,12 @@ See [FEATURES.md](./FEATURES.md) for detailed documentation on:
 - Growing gaming ecosystem
 
 **Powered By:**
-- Anchor 0.30.1 (smart contracts)
-- Wormhole (cross-chain bridge)
-- Helius/QuickNode (RPC infrastructure)
-- Redis (real-time state)
-- PostgreSQL (match history)
-- WebSocket (real-time gaming)
+- Modern Rust framework (smart contracts)
+- Cross-chain bridge protocol
+- Premium RPC infrastructure
+- Distributed caching layer
+- Relational database (match history)
+- Real-time bidirectional communication
 
 ---
 
@@ -450,10 +450,21 @@ This isn't a game. This isn't a platform. **This is the future of competitive ga
 
 ## 🔗 Get Involved
 
-**For Players:** [Coming Soon]
-**For Affiliates:** [Coming Soon]
-**For Developers:** [Coming Soon]
-**For KOLs/Partners:** [Contact Us]
+**Want the complete technical breakdown?**
+
+See [FEATURES.md](./FEATURES.md) for detailed documentation on:
+- 🔒 Privacy Layer (ZK-compression)
+- 🤖 AI Bot System
+- 🎖️ Prestige & Achievement System
+- 🔐 Authentication (Web2 onboarding)
+- 📊 Production Infrastructure
+- 🛡️ Advanced Anti-Cheat (6-layer system)
+- ⚡ Performance Optimizations
+- 🏆 Tournament System
+- 💬 Advanced Chat
+- 📊 Leaderboard System
+
+**[→ Read Full Feature Documentation](./FEATURES.md)**
 
 ---
 
