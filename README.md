@@ -2,6 +2,10 @@
 
 **Play. Compete. Earn. Forever.**
 
+> **Note for Judges:** This repository contains documentation only. The actual codebase (smart contracts, backend, frontend) is kept private for now to protect IP. I'm happy to share the full codebase with hackathon judges upon request - just reach out to discuss. I prefer to speak with a team member first before making the code public.
+
+---
+
 The gaming market is evolving. Players want more than entertainment - they want opportunities to earn, compete, and build communities. With recent success of games like Virus by Pandemic Labs, we believe this is only the start of the gaming revolution on Solana.
 
 **PV3 is the complete gaming ecosystem where everyone earns:**
