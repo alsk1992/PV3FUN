@@ -32,12 +32,15 @@ After 2 years of building various projects in the Solana ecosystem, it's time to
 - **Security-First**: Every system designed with defense-in-depth, zero-trust architecture
 - **Solo Shipping**: Can execute end-to-end without dependencies or coordination overhead
 
-**2. Solana Ecosystem Knowledge:**
-- 2 years in the trenches = deep network and battle scars
-- Seen multiple cycles: Virus hype, NFT boom, meme coin season
-- Understand what works and what doesn't in crypto gaming
-- Know how to navigate Solana's unique challenges and limitations
-- Built relationships with key ecosystem players
+**2. Solana Native & Ecosystem Pioneer:**
+- **Solana native from day one** - Not a multi-chain tourist, fully committed to Solana
+- **Early pump.fun adopter** - One of the first users to really take advantage of pump.fun when it initially launched
+- **2 years in the trenches** = Deep network, battle scars, and pattern recognition
+- **Seen multiple cycles**: Virus hype, NFT boom, meme coin season, pump.fun explosion
+- **Understands viral mechanics**: Watched what works and what dies in the Solana ecosystem
+- **Know how to navigate Solana's challenges**: RPC issues, congestion, spam, MEV
+- **Built relationships with key ecosystem players**: Developers, investors, KOLs
+- **Market timing expertise**: Recognized pump.fun's potential early, same instinct applies to gaming
 
 **3. Relentless Work Ethic:**
 - **Workhorse mentality**: I outwork the competition
