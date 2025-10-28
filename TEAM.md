@@ -7,6 +7,8 @@
 **UK-Based Solo Developer with 2 Years in the Solana Trenches**
 
 **Background:**
+- **Family runs successful multinational corporations** - Learned to build from childhood
+- **Inspired by their businesses, work ethic, and never-quit mentality** - Business DNA from day one
 - **Graduated from a redbrick top university in the UK** - BSc International Business
 - **Won grants and enterprise scholarships** at university for entrepreneurial ventures
 - **Ran successful IRL e-commerce businesses** before entering crypto
@@ -15,14 +17,21 @@
 - **Multiple successful projects** deployed to production
 - **Battle-tested** in the Solana ecosystem trenches
 
+**The Foundation:**
+Grew up watching family build and scale multinational corporations. Learned early that success requires relentless work ethic, never quitting, and obsessive attention to execution. That's the foundation I'm building PV3 on.
+
 **The Combination:**
-Business education + Entrepreneurial track record + Technical mastery = Rare founder profile
+Generational business DNA + Business education + Entrepreneurial track record + Technical mastery = Exceptional founder profile
 
 **The Developer:**
 
 I consider myself a **workhorse**. Very hard working. I have no quit in me.
 
+This isn't just personality - it's **generational**. I grew up watching family members run multinational corporations. I saw what it takes to build and scale businesses at the highest level. That work ethic, that never-quit mentality, that obsessive attention to execution - it's in my DNA.
+
 I don't just write code - I craft experiences. I don't just build backends - I architect secure, scalable systems. I don't just deploy smart contracts - I ensure they're bulletproof.
+
+**Building is in my blood.**
 
 **Why This Project:**
 
