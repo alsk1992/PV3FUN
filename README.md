@@ -2,7 +2,7 @@
 
 **Play. Compete. Earn. Forever.**
 
-> **Note for Judges:** This repository contains documentation only. The actual codebase (smart contracts, backend, frontend) is kept private for now to protect IP. I'm happy to share the full codebase with hackathon judges upon request - just reach out to discuss. I prefer to speak with a team member first before making the code public.
+> **Note for Judges:** This repository contains documentation only. The actual codebase (smart contracts, backend, frontend) is kept private for now to protect IP. I'm happy to share the full codebase with hackathon judges upon request - just reach out via my Colosseum account or X [@alsk661](https://x.com/alsk661) to discuss. I prefer to speak with a team member first before making the code public.
 
 ---
 
