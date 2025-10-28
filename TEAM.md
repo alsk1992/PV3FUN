@@ -7,11 +7,16 @@
 **UK-Based Solo Developer with 2 Years in the Solana Trenches**
 
 **Background:**
-- Self-taught developer who has spent years nurturing and developing my craft
-- Deep expertise across the full stack: Smart contracts, beautiful UIs, robust secure backends
-- 2 years actively building on Solana with proven success
-- Multiple successful projects deployed to production
-- Battle-tested in the Solana ecosystem trenches
+- **Graduated from a redbrick top university in the UK** - BSc International Business
+- **Won grants and enterprise scholarships** at university for entrepreneurial ventures
+- **Ran successful IRL e-commerce businesses** before entering crypto
+- **Self-taught developer** who spent years nurturing and developing technical craft
+- **2 years actively building on Solana** with proven success
+- **Multiple successful projects** deployed to production
+- **Battle-tested** in the Solana ecosystem trenches
+
+**The Combination:**
+Business education + Entrepreneurial track record + Technical mastery = Rare founder profile
 
 **The Developer:**
 
@@ -48,12 +53,21 @@ After 2 years of building various projects in the Solana ecosystem, it's time to
 - **Obsessive quality**: Every pixel, every line of code, every user interaction matters
 - **Long-term commitment**: This is my life's work for the next 5-10 years
 
-**4. Execution Track Record:**
+**4. Business Acumen & Entrepreneurial Track Record:**
+- **BSc International Business** from top UK redbrick university
+- **Won grants and enterprise scholarships** - Proven ability to pitch and secure funding
+- **Ran successful IRL e-commerce businesses** - Understand customer acquisition, unit economics, scaling
+- **Knows how to build sustainable businesses** - Not just a technical founder
+- **Can speak to investors** - Business education + entrepreneurial experience
+- **Understands P&L, CAC, LTV, margins** - Not learning business basics on the job
+
+**5. Execution Track Record:**
 - Shipped multiple successful projects to production
 - Can build and deploy end-to-end systems solo (smart contract → backend → frontend)
 - Self-funded through launch (no dependency on investors)
 - Proven ability to go from idea → production rapidly
 - Know how to ship under pressure and iterate based on user feedback
+- Built and scaled real businesses (e-commerce) before crypto
 
 ---
 
