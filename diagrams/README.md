@@ -89,6 +89,75 @@ These are **Mermaid** diagrams that render beautifully on:
 
 ---
 
+### 6. Privacy Layer (Light Protocol)
+**File:** `privacy-layer.mmd`
+
+**Shows:**
+- Zero-knowledge proof generation
+- State compression via Light Protocol
+- Merkle tree accumulation
+- Nullifier hash for double-spend prevention
+- Public verifiability without identity reveal
+- Anonymous betting and private winnings
+- Cost reduction through compression
+
+**View:** [privacy-layer.mmd](./privacy-layer.mmd)
+
+---
+
+### 7. Cross-Chain Bridge (Wormhole)
+**File:** `cross-chain-bridge.mmd`
+
+**Shows:**
+- ETH/BSC/Polygon source chains
+- Wormhole Guardian Network (19 validators)
+- VAA (Verifiable Action Approval) generation
+- Multi-signature consensus (13+ guardians)
+- Wrapped asset creation on Solana
+- Session vault integration
+- Atomic swap guarantees
+- Security model and fee structure
+
+**View:** [cross-chain-bridge.mmd](./cross-chain-bridge.mmd)
+
+---
+
+### 8. WebSocket Real-Time Architecture
+**File:** `websocket-realtime.mmd`
+
+**Shows:**
+- 100K+ concurrent connection capacity
+- Load-balanced WebSocket gateways
+- Redis Pub/Sub message bus
+- Distributed state management
+- Authoritative game engine
+- Connection recovery architecture
+- Sub-10ms latency optimization
+- Horizontal scaling strategy
+- Anti-cheat integration points
+
+**View:** [websocket-realtime.mmd](./websocket-realtime.mmd)
+
+---
+
+### 9. Developer SDK Integration
+**File:** `developer-sdk.mmd`
+
+**Shows:**
+- Game development workflow
+- SDK initialization and configuration
+- Automatic anti-cheat wrapping
+- Platform deployment process
+- Revenue tracking system
+- 50% revenue share distribution
+- Real-time analytics dashboard
+- Example earnings at scale
+- Complete developer experience
+
+**View:** [developer-sdk.mmd](./developer-sdk.mmd)
+
+---
+
 ## Rendering Locally
 
 ### VS Code

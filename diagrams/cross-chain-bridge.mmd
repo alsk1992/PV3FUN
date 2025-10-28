@@ -1,0 +1,62 @@
+```mermaid
+sequenceDiagram
+    participant USER as User on ETH/BSC/Polygon
+    participant WALLET as Source Chain Wallet
+    participant WORMHOLE as Wormhole Guardian Network
+    participant VAA as Verifiable Action Approval
+    participant SOLANA as Solana Mainnet
+    participant PV3 as PV3 Session Vault
+    participant GAME as Ready to Play
+
+    USER->>WALLET: Initiate Bridge Transaction
+    Note over USER,WALLET: 1 ETH/USDC/Token on Source Chain
+
+    WALLET->>WORMHOLE: Lock Assets on Source Chain
+    Note over WORMHOLE: Guardian Network Validates
+
+    WORMHOLE->>WORMHOLE: 19 Guardians Sign Message
+    Note over WORMHOLE: 2/3+ Consensus Required
+
+    WORMHOLE->>VAA: Generate VAA (Proof of Lock)
+    Note over VAA: Cryptographic Multi-Sig Proof
+
+    VAA->>SOLANA: Submit VAA to Wormhole Contract
+    Note over SOLANA: Verify Guardian Signatures
+
+    SOLANA->>SOLANA: Mint Wrapped Asset
+    Note over SOLANA: wETH/wUSDC on Solana
+
+    SOLANA->>PV3: Deposit to Session Vault
+    Note over PV3: Convert to SOL or Hold Wrapped
+
+    PV3->>GAME: Funds Available
+    Note over GAME: Start Gaming Immediately
+
+    rect rgb(16, 185, 129)
+        Note over USER,GAME: Bridge Time: 30-60 seconds<br/>Atomic Guarantee: No Loss of Funds<br/>Guardian Network: Decentralized Security
+    end
+```
+
+**Supported Chains:**
+- **Ethereum (ETH)**: Bridge ETH, USDC, USDT, wrapped tokens
+- **Binance Smart Chain (BSC)**: Bridge BNB, BUSD, wrapped tokens
+- **Polygon (MATIC)**: Bridge MATIC, USDC, wrapped tokens
+
+**Technical Details:**
+- **Guardian Network**: 19 independent validators (includes Coinbase, Jump, etc.)
+- **Consensus**: 2/3+ guardians must agree (13+ signatures)
+- **VAA**: Verifiable Action Approval = cryptographic proof of lock
+- **Atomic Swap**: Either completes fully or reverts completely
+- **No Custodian**: Fully decentralized bridge (no central authority)
+
+**Security Guarantees:**
+- **Multi-Signature**: Requires 13+ independent validators
+- **Time Lock**: 15-second finality on Ethereum → Immediate on Solana
+- **Slashing**: Guardians stake collateral, lose funds for bad behavior
+- **Audit Trail**: All bridges publicly verifiable on-chain
+
+**Fee Structure:**
+- **Wormhole Fee**: ~$1 (paid to guardians)
+- **Source Chain Gas**: Varies by network (ETH high, BSC/Polygon low)
+- **Solana Gas**: < $0.001 (negligible)
+- **PV3 Fee**: 0% bridge fee (we want users to deposit!)

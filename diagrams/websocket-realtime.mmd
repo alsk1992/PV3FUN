@@ -1,0 +1,101 @@
+```mermaid
+graph TB
+    subgraph "Client Layer - 100K+ Concurrent Users"
+        C1[Player 1 Browser<br/>WebSocket Client]
+        C2[Player 2 Browser<br/>WebSocket Client]
+        C3[Player N Browser<br/>WebSocket Client]
+    end
+
+    subgraph "Gateway Layer - Load Balanced"
+        WS1[WebSocket Gateway 1<br/>NestJS]
+        WS2[WebSocket Gateway 2<br/>NestJS]
+        WS3[WebSocket Gateway N<br/>NestJS]
+    end
+
+    subgraph "Message Bus - Redis Pub/Sub"
+        PUBSUB[Redis Pub/Sub<br/>Channel Routing]
+        MATCH_CHAN[Match Channels<br/>match:12345]
+        GAME_CHAN[Game Channels<br/>game:chess]
+        GLOBAL_CHAN[Global Channels<br/>leaderboard]
+    end
+
+    subgraph "State Management - Distributed"
+        REDIS_STATE[Redis Cluster<br/>Game State]
+        REDIS_CACHE[Redis LRU Cache<br/>Hot Data < 10ms]
+        POSTGRES[PostgreSQL<br/>Persistent Storage]
+    end
+
+    subgraph "Game Engine - Authoritative Server"
+        GAME_LOGIC[Game Logic Service<br/>Move Validation]
+        MATCH_MGR[Match Manager<br/>Lifecycle Control]
+        ANTI_CHEAT[Anti-Cheat Engine<br/>Real-time Analysis]
+    end
+
+    C1 & C2 & C3 --> WS1 & WS2 & WS3
+    WS1 & WS2 & WS3 --> PUBSUB
+    PUBSUB --> MATCH_CHAN & GAME_CHAN & GLOBAL_CHAN
+
+    MATCH_CHAN --> GAME_LOGIC
+    GAME_LOGIC --> MATCH_MGR
+    MATCH_MGR --> ANTI_CHEAT
+
+    GAME_LOGIC --> REDIS_STATE
+    REDIS_STATE --> REDIS_CACHE
+    ANTI_CHEAT --> POSTGRES
+
+    REDIS_STATE -.Broadcast.-> PUBSUB
+    PUBSUB -.Updates.-> WS1 & WS2 & WS3
+    WS1 & WS2 & WS3 -.Real-time.-> C1 & C2 & C3
+
+    style C1 fill:#9333EA,color:#fff
+    style C2 fill:#9333EA,color:#fff
+    style C3 fill:#9333EA,color:#fff
+    style WS1 fill:#10B981,color:#fff
+    style WS2 fill:#10B981,color:#fff
+    style WS3 fill:#10B981,color:#fff
+    style PUBSUB fill:#3B82F6,color:#fff
+    style MATCH_CHAN fill:#3B82F6,color:#fff
+    style GAME_CHAN fill:#3B82F6,color:#fff
+    style GLOBAL_CHAN fill:#3B82F6,color:#fff
+    style REDIS_STATE fill:#F59E0B,color:#fff
+    style REDIS_CACHE fill:#F59E0B,color:#fff
+    style POSTGRES fill:#F59E0B,color:#fff
+    style GAME_LOGIC fill:#E6E6E6,color:#000
+    style MATCH_MGR fill:#E6E6E6,color:#000
+    style ANTI_CHEAT fill:#E6E6E6,color:#000
+```
+
+**Real-Time Performance Metrics:**
+- **WebSocket Latency**: < 10ms p95 (sub-frame timing)
+- **Message Throughput**: 10,000 msg/s per gateway instance
+- **Connection Capacity**: 100,000+ concurrent WebSocket connections
+- **State Synchronization**: < 5ms across all connected clients
+- **Message Ordering**: Guaranteed per-channel FIFO delivery
+
+**Connection Recovery Architecture:**
+- **Exponential Backoff**: 100ms → 500ms → 2s → 5s reconnection attempts
+- **State Replay**: Transaction log replay for seamless recovery
+- **60-Second Grace Period**: Match state preserved in Redis
+- **Idempotent Messages**: Duplicate detection prevents double-processing
+- **Automatic Refund**: < 30s disconnect triggers wager return
+
+**Optimization Techniques:**
+- **Binary Protocol**: gzip compression reduces bandwidth 70%
+- **Message Batching**: Aggregate updates sent every 16ms (60fps)
+- **Connection Pooling**: Persistent Redis connections (20-pool size)
+- **Rate Limiting**: Token bucket algorithm (100 msg/s per client)
+- **Channel Sharding**: Distribute load across Redis cluster nodes
+
+**Horizontal Scaling:**
+- **Stateless Gateways**: Add WebSocket instances behind load balancer
+- **Redis Pub/Sub**: Broadcasts synchronize all gateway instances
+- **Sticky Sessions**: Not required (Redis handles state sync)
+- **Auto-Scaling**: Kubernetes HPA based on WebSocket connections
+- **Zero-Downtime Deploys**: Rolling updates with connection draining
+
+**Anti-Cheat Integration:**
+- **Input Timestamping**: Sub-millisecond precision timing analysis
+- **Replay Hashing**: Real-time cryptographic verification
+- **Behavioral Analysis**: Statistical pattern detection on live data
+- **Rate Anomaly Detection**: Flag impossible action sequences
+- **Disconnect Forensics**: Analyze intentional vs. accidental drops

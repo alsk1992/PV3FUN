@@ -1,0 +1,69 @@
+```mermaid
+graph TB
+    subgraph "User Action Layer"
+        USER[Player Initiates Match<br/>Choose Privacy Mode]
+        WALLET[Wallet Connected<br/>Public or Private]
+    end
+
+    subgraph "Privacy Processing - Light Protocol Integration"
+        ZK[ZK Proof Generator<br/>Generate Zero-Knowledge Proof]
+        COMPRESS[State Compression<br/>Light Protocol SDK]
+        MERKLE[Merkle Tree Accumulation<br/>Compressed State Trees]
+        NULLIFIER[Nullifier Hash Generation<br/>Prevent Double-Spend]
+    end
+
+    subgraph "Blockchain Verification"
+        SOLANA[Solana Mainnet<br/>Transaction Submission]
+        LIGHT_PROGRAM[Light Protocol Program<br/>On-Chain Verification]
+        VERIFY[Public Verifiability<br/>Zero Knowledge Maintained]
+    end
+
+    subgraph "Benefits"
+        ANON[Anonymous Betting<br/>No Wallet Exposure]
+        PRIVATE[Private Winnings<br/>Hidden Balance]
+        CHEAPER[Lower Fees<br/>Compressed Transactions]
+        AUDIT[Publicly Auditable<br/>Without Identity Reveal]
+    end
+
+    USER --> WALLET
+    WALLET --> ZK
+    ZK --> COMPRESS
+    COMPRESS --> MERKLE
+    MERKLE --> NULLIFIER
+    NULLIFIER --> SOLANA
+    SOLANA --> LIGHT_PROGRAM
+    LIGHT_PROGRAM --> VERIFY
+
+    VERIFY --> ANON
+    VERIFY --> PRIVATE
+    VERIFY --> CHEAPER
+    VERIFY --> AUDIT
+
+    style USER fill:#9333EA,color:#fff
+    style WALLET fill:#9333EA,color:#fff
+    style ZK fill:#10B981,color:#fff
+    style COMPRESS fill:#10B981,color:#fff
+    style MERKLE fill:#10B981,color:#fff
+    style NULLIFIER fill:#10B981,color:#fff
+    style SOLANA fill:#3B82F6,color:#fff
+    style LIGHT_PROGRAM fill:#3B82F6,color:#fff
+    style VERIFY fill:#3B82F6,color:#fff
+    style ANON fill:#E6E6E6,color:#000
+    style PRIVATE fill:#E6E6E6,color:#000
+    style CHEAPER fill:#E6E6E6,color:#000
+    style AUDIT fill:#E6E6E6,color:#000
+```
+
+**Technical Details:**
+
+- **ZK Proof Generation**: Cryptographic proof that transaction is valid without revealing player identity
+- **State Compression**: Light Protocol reduces on-chain storage by 99%+ using Merkle trees
+- **Nullifier Hash**: Prevents double-spending while maintaining privacy
+- **Public Verifiability**: Anyone can verify match fairness without seeing who played
+- **Cost Reduction**: Compressed transactions = ~$0.0001 vs $0.005 standard
+
+**Privacy Options:**
+- **Public Mode**: Standard transparent transactions (default)
+- **Private Mode**: ZK-compressed with identity protection (optional)
+- **Anonymous Leaderboards**: Compete without wallet exposure
+- **Private Winnings**: Balance changes not visible on-chain
