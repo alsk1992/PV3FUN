@@ -372,44 +372,46 @@ Vesting ensures long-term alignment.
 
 ---
 
-## Contact & Collaboration
+## Scaling Strategy & Team Building
 
-**Open to Collaboration:**
+**Current Status: Solo Founder Executing**
 
-I'm not planning to take 100% equity. PV3 is too ambitious for one person to own entirely. I'm **open to working with co-founders, key hires, and strategic partners** who can add significant value.
+I'm shipping PV3 solo through launch. Proven I can build, ship, and execute without dependencies. The platform, infrastructure, and initial traction will be mine.
 
-**What I'm Looking For:**
-- **Co-Founders**: Complementary skills (marketing, BD, design, or additional technical depth)
-- **Early Team Members**: Exceptional builders who want equity and are willing to grind
-- **Strategic Advisors**: Gaming industry veterans, crypto OGs, operators with scale experience
-- **Investors Who Operate**: Not just capital - bring network, expertise, hands-on help
+**As We Scale:**
+
+When PV3 hits traction and validates product-market fit, I'll bring in exceptional talent. Not because I need help building - because scaling to $1B requires world-class operators in every function.
 
 **The Equity Philosophy:**
-- Talent and value creation deserve ownership
-- Building a $1B company with 50% > building a $100M company with 100%
-- Best people won't join for just salary - need skin in the game
-- Collaborative ownership = better outcomes
+
+I'm not keeping 100% equity. Building a $1B company with 50% is better than building a $100M company alone. But equity goes to those who multiply value, not just contribute.
+
+**Who Earns Equity (When We Scale):**
+- **Exceptional Operators**: Proven track record scaling similar businesses
+- **Strategic C-Suite**: CMO who's done $100M+ user acquisition, CTO who's scaled to millions of users
+- **Key Early Hires**: Top 1% talent who join pre-Series A and grind
+- **Investors Who Operate**: Bring more than capital - network, expertise, hands-on value
+
+**High Bar:**
+- Must be exceptional at your craft (top 1% in your domain)
+- Must have scaled similar products before (no learning on the job)
+- Must be willing to outwork everyone (workhorse mentality required)
+- Must believe in 10-year vision (no mercenaries)
 
 **For Partnerships:**
-- Game developers interested in our SDK
-- Influencers/KOLs for custom deals
-- Strategic partnerships and integrations
+- Game developers interested in our SDK (50% revenue share)
+- Influencers/KOLs for custom deals (up to 50% revenue share)
+- Strategic integrations that accelerate growth
 
 **For Investment:**
-- Post-traction preferred (but open to pre-launch if strategic fit)
-- Must bring more than capital (network, expertise, operational help)
-- Aligned on long-term vision (5-10 years, not quick flip)
-
-**For Joining Team:**
-- Open now for exceptional co-founders and early team members
-- Equity available for key hires who believe in the vision
-- Solana experience strongly preferred
-- Must be willing to grind and build something massive
+- Post-traction strongly preferred (validate PMF first)
+- Must bring strategic value beyond capital
+- Aligned on 5-10 year horizon (no quick flip investors)
 
 **Contact:**
 - Colosseum: Via hackathon platform
 - X: [@alsk661](https://x.com/alsk661)
-- Open to conversations with serious builders and operators
+- Only reach out if you're exceptional and serious about building
 
 ---
 
