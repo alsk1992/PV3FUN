@@ -374,20 +374,42 @@ Vesting ensures long-term alignment.
 
 ## Contact & Collaboration
 
+**Open to Collaboration:**
+
+I'm not planning to take 100% equity. PV3 is too ambitious for one person to own entirely. I'm **open to working with co-founders, key hires, and strategic partners** who can add significant value.
+
+**What I'm Looking For:**
+- **Co-Founders**: Complementary skills (marketing, BD, design, or additional technical depth)
+- **Early Team Members**: Exceptional builders who want equity and are willing to grind
+- **Strategic Advisors**: Gaming industry veterans, crypto OGs, operators with scale experience
+- **Investors Who Operate**: Not just capital - bring network, expertise, hands-on help
+
+**The Equity Philosophy:**
+- Talent and value creation deserve ownership
+- Building a $1B company with 50% > building a $100M company with 100%
+- Best people won't join for just salary - need skin in the game
+- Collaborative ownership = better outcomes
+
 **For Partnerships:**
 - Game developers interested in our SDK
 - Influencers/KOLs for custom deals
 - Strategic partnerships and integrations
 
-**For Investment (Future):**
-- Post-traction only
-- Bring strategic value, not just capital
-- Aligned on long-term vision
+**For Investment:**
+- Post-traction preferred (but open to pre-launch if strategic fit)
+- Must bring more than capital (network, expertise, operational help)
+- Aligned on long-term vision (5-10 years, not quick flip)
 
 **For Joining Team:**
-- Wait for job postings (post-launch)
-- Must be exceptional at your craft
+- Open now for exceptional co-founders and early team members
+- Equity available for key hires who believe in the vision
 - Solana experience strongly preferred
+- Must be willing to grind and build something massive
+
+**Contact:**
+- Colosseum: Via hackathon platform
+- X: [@alsk661](https://x.com/alsk661)
+- Open to conversations with serious builders and operators
 
 ---
 
